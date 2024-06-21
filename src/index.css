@@ -1,0 +1,12 @@
+:root{
+    --Grey: rgba(0, 0, 0, .8);
+    --Grey-Hover: rgba(0, 0, 0, .9);
+    --White: rgba(255, 255, 255, .8);
+    --BGWhite: rgba(245, 245, 247, .8);
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
