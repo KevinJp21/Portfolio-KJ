@@ -81,13 +81,13 @@ header{
     transform: rotate(45deg) translate(-5px, -5px);
 }
 
-@media screen and (max-width: 1300px) {
-    .containerNavHome {
-        width: 100%;
-    }
-}
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
+
+    .containerNavHome{
+        justify-content: space-between;
+    }
+
     .navHome {
         display: flex;
         flex-direction: column;
