@@ -1,13 +1,13 @@
 .FloatNavbar {
     position: fixed;
-    min-width: 40vw;
+    width: 70vw;
     height: 60px;
     background-color: var(--BGWhite);
-    top: 20px;
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 20px;
-    box-shadow: rgb(214, 214, 214) 15px 15px 30px 1px;
+    box-shadow: rgb(168, 168, 168) 0px -10px 40px 1px;
     z-index: 100;
 }
 
@@ -29,6 +29,10 @@
     padding: 0 12px;
 }
 
+.FloatnavHome{
+    width: 100%;
+}
+
 .LinkFloatNavHome {
     text-decoration: none;
     color: var(--Grey);
@@ -40,6 +44,9 @@
 .home-icon{
     fill: var(--Grey);
     transition: all .3s ease;
+    max-width: 30px;
+    width: 100%;
+    
 }
 
 .home-icon:hover{
@@ -57,10 +64,17 @@
     list-style-type: none;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .FloatmenuHome li {
     padding: 0 10px;
     font-size: 12px;
     font-weight: 500;
+}
+
+@media screen and (max-width: 500px) {
+    .FloatNavbar{
+        width: 90vw;
+    }
 }
