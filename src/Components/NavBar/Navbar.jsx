@@ -12,7 +12,7 @@ const Navbar = () => {
         <header>
             <nav className='NavBarHome'>
                 <div className="containerNavHome">
-                    <h1>Kevin Julio</h1>
+                    <h1>Kevin Julio Pineda</h1>
                     <div className={`navHome ${menuOpen ? 'NavHomeOpen' : ''}`}>
                         <ul className="menuHome">
                             <li><Link className="LinkNavHome Start" to="/#"><span className='linkText'>Inicio</span></Link></li>

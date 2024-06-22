@@ -1,5 +1,5 @@
 header{
-    background-color: var(--White);
+    background-color: var(--BGWhite);
     width: 100%;
     height: 60px;
 }
@@ -24,8 +24,8 @@ header{
 }
 
 .containerNavHome h1{
-    color: var(--Grey);
-    font-weight: 200;
+    color: var(--Grey-Dark);
+    font-weight: 500;
 }
 
 
@@ -34,11 +34,11 @@ header{
     color: var(--Grey);
     transition: .3s ease-out;
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .LinkNavHome:hover{
-    color: var(--Grey-Hover);
+    color: var(--Grey-HoverLinks);
 }
 
 .menuHome {

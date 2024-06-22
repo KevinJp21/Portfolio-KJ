@@ -1,6 +1,7 @@
 :root{
-    --Grey: rgba(0, 0, 0, .8);
-    --Grey-Hover: rgba(0, 0, 0, .9);
+    --Grey: rgba(0, 0, 0, .56);
+    --Grey-HoverLinks: rgba(0, 0, 0, .7);
+    --Grey-Dark: rgba(0, 0, 0, .8);
     --White: rgba(255, 255, 255, .8);
     --BGWhite: rgba(245, 245, 247, .8);
 
