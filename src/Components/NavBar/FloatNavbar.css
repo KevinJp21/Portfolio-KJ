@@ -1,0 +1,66 @@
+.FloatNavbar {
+    position: fixed;
+    min-width: 40vw;
+    height: 60px;
+    background-color: var(--BGWhite);
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    box-shadow: rgb(214, 214, 214) 15px 15px 30px 1px;
+    z-index: 100;
+}
+
+
+.FloatNavBarHome {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.containerFloatNavHome {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12px;
+}
+
+.LinkFloatNavHome {
+    text-decoration: none;
+    color: var(--Grey);
+    transition: .3s ease-out;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.home-icon{
+    fill: var(--Grey);
+    transition: all .3s ease;
+}
+
+.home-icon:hover{
+    fill: var(--Grey-HoverLinks);
+    
+}
+
+.LinkFloatNavHome:hover {
+    color: var(--Grey-HoverLinks);
+}
+
+.FloatmenuHome {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.FloatmenuHome li {
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: 500;
+}

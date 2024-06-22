@@ -1,7 +1,11 @@
-header{
+.NavBar{
+    transition: all 1s ease;
+}
+.NavBar.scrolled{
     background-color: var(--BGWhite);
     width: 100%;
     height: 60px;
+    transition: all 1s ease;
 }
 
 .NavBarHome{
@@ -54,84 +58,19 @@ header{
     font-weight: 500;
 }
 
-.hamburger {
+
+.NavBar.scrolled .NavBarHome .containerNavHome h1{
     display: none;
-    flex-direction: column;
-    cursor: pointer;
 }
 
-.hamburger .bar {
-    width: 30px;
-    height: 3px;
-    margin: 4px 0;
-    background-color: #000; /* Color de la barra */
-    transition: 0.4s;
-}
-
-/*Convertir las barras en una x*/
-.hamburger.NavHomeOpen .bar1 {
-    transform: rotate(-45deg) translate(-10px, 10px);
-}
-
-.hamburger.NavHomeOpen .bar2 {
-    opacity: 0;
-}
-
-.hamburger.NavHomeOpen .bar3 {
-    transform: rotate(45deg) translate(-5px, -5px);
-}
-
-
-@media screen and (max-width: 600px) {
-
-    .containerNavHome{
-        justify-content: space-between;
-    }
-
-    .navHome {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 120px;
-        right: 0;
-        width: 100%;
-        background-color: var(--bg-color);
-        
-        height: 0;
-        overflow: hidden;
-        opacity: 0;
-        transition: height 0.4s ease-out, opacity 0.4s ease-out;
-    }
-
-    .navHome.NavHomeOpen {
-        height:80vh;
-        opacity: 1;
-    }
-
-    .hamburger {
-        display: flex;
-    }
-
-    .menuHome {
-        flex-direction: column;
-        padding: 20px;
-        height: 100%;
-        justify-content: space-between;
-        
-    }
-
-
-    .menuHome li:last-child{
-        width: 70%;
-        text-align: center;
-    }
-
-    .LinkNavHome{ /*Centrar texto link del login*/
-        justify-content: center;
-        font-size: 16px;
-    }
-
-    .LoginBTN::before{/*Ocultar la linea del before*/
-        display: none;
-    }
+.NavBar.scrolled{
+    position: fixed;
+    width: 50vw;
+    background-color: var(--BGWhite);
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    box-shadow: rgb(214, 214, 214) 15px 15px 30px 1px;
+    z-index: 100;
 }
