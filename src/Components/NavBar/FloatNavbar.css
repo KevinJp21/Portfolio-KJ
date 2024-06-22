@@ -51,6 +51,7 @@
 
 .home-icon:hover{
     fill: var(--Grey-HoverLinks);
+    transform: scale(1.5);
     
 }
 
