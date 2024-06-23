@@ -5,7 +5,7 @@ import { ReactComponent as LinkIcon } from '../../../assets/Icons/LinkIcon.svg';
 import { ReactComponent as GitIcon } from '../../../assets/Icons/GitHub.svg';
 
 const projects = [
-    { id: 1, title: 'DocMe', description: '1', img: DocMe, tool: ['React JS', 'Express JS'], Git: 'https://github.com/KevinJp21/DocMe_ReactJS', demo: 'https://docme-two.vercel.app/' },
+    { id: 1, title: 'DocMe', description: '1', img: DocMe, tool: ['React JS', 'Express JS', 'SQL'], Git: 'https://github.com/KevinJp21/DocMe_ReactJS', demo: 'https://docme-two.vercel.app/' },
     { id: 2, title: '', description: '2' },
     { id: 3, title: '', description: '3' },
     { id: 4, title: '', description: '4' },
@@ -22,6 +22,7 @@ const Projects = () => {
                 {projects.map((project) => (
                     <div key={project.id} className={`CardProject Card${project.id}`}>
                         {project.img && <img src={project.img} alt={project.title} />}
+
                         <div className="contentCard">
                             <div className="HeaderCard">
                                 <a target="-blank" href={project.demo}><LinkIcon className="IconsCards" width={"30px"} height={"30px"} /></a>
