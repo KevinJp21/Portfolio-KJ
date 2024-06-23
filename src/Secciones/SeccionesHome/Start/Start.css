@@ -91,17 +91,6 @@
     border: none;
 }
 
-.BTNProfileWrapper button:last-child{
-    background-color: var(--Grey-HoverLinks);
-    color: var(--White);
-    border: none;
-}
-
-.BTNProfileWrapper button:last-child:hover{
-    background: transparent;
-    color: var(--Grey-Dark);
-    border: 1px solid var(--Grey);
-}
 
 .BTNLinkSocialr{
     margin-top: 20px;
