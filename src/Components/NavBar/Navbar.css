@@ -69,7 +69,7 @@
     left: 50%;
     transform: translateX(-50%);
     border-radius: 20px;
-    box-shadow: rgb(214, 214, 214) 15px 15px 30px 1px;
+    box-shadow: rgb(214, 214, 214) 5px 0px 40px 1px;
     z-index: 100;
     overflow: hidden; /* Asegura que el pseudo-elemento no se salga del contenedor */
 }

@@ -1,0 +1,207 @@
+.ContainerProjects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-height: fit-content;
+}
+
+.HeaderProjects {
+    width: 100%;
+    padding: 20px;
+}
+
+.HeaderProjects h2 {
+    text-align: center;
+    font-size: min(40px, 7vw);
+    font-weight: 500;
+    color: var(--Grey-Dark);
+}
+
+.ContentProjects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+    grid-auto-rows: minmax(240px, auto);
+    gap: 10px;
+    width: 80vw;
+    padding: 20px 0;
+}
+
+.CardProject {
+    position: relative;
+    background-color: #ff5f5f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 6px;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.CardProject img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    z-index: -1;
+    transition: transform .3s ease-in-out;
+}
+
+.contentCard {
+    opacity: 0;
+    visibility: visible;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    transition: opacity 0.2s ease, visibility 0.2s ease-in-out;
+}
+
+.contentCard::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: black;
+    filter: opacity(.5);
+    z-index: -1;
+}
+
+.HeaderCard {
+    display: flex;
+    justify-content: end;
+
+}
+
+.HeaderCard svg {
+    fill: var(--White);
+    width: 20px;
+    height: 20px;
+    transition: fill .3s ease-in-out;
+}
+
+.HeaderCard svg:hover {
+    fill: var(--Grey-HoverLinks);
+}
+
+.FooterCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.TitleCard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.TitleCard h3 {
+    color: var(--White);
+    font-size: min(35px, 6vw);
+    font-weight: 500;
+}
+
+.ToolsWrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.ToolsCard {
+    background: var(--White);
+    place-content: center;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.ToolsCard span {
+    color: var(--Grey-Dark);
+
+}
+
+.LinkProject svg {
+    fill: var(--White);
+    transition: fill .3s ease-in-out;
+}
+
+.LinkProject svg:hover {
+    fill: var(--Grey-HoverLinks);
+}
+
+.CardProject:hover img {
+    transform: scale(110%);
+}
+
+.CardProject:hover .contentCard {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.Card1 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.Card2, .Card3 {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.Card4, .Card5 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+
+
+
+@media screen and (max-width: 924px) {
+    .ContentProjects {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+
+    
+    .CardProject {
+        grid-column: span 1;
+        grid-row: span 2;
+        
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .ContentProjects {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    }
+
+    .CardProject {
+        grid-column: span 2;
+        
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .ContentProjects {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+
+    .CardProject {
+        grid-column: span 2;
+        
+    }
+}

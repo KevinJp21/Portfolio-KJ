@@ -14,8 +14,8 @@ const FloatNavbar = () => {
                 <ul className="FloatmenuHome">
                     <li><a className="LinkFloatNavHome Start" href='#Start'><HomeIcon className="home-icon" width={"30px"} heigh={"30px"}/></a></li>
                     <li><a className="LinkFloatNavHome About" href='#About'><AboutIcon className="home-icon" width={"30px"} heigh={"30px"}/></a></li>
-                    <li><Link className="LinkFloatNavHome Projects" to="/#"><ProjectIcon className="home-icon" width={"30px"} heigh={"30px"}/></Link></li>
-                    <li><Link className="LinkFloatNavHome Contact" to="/login"><ContactIcon className="home-icon" width={"30px"} heigh={"30px"}/></Link></li>
+                    <li><a className="LinkFloatNavHome Projects" href="#projects"><ProjectIcon className="home-icon" width={"30px"} heigh={"30px"}/></a></li>
+                    <li><a className="LinkFloatNavHome Contact" href="#contact"><ContactIcon className="home-icon" width={"30px"} heigh={"30px"}/></a></li>
                 </ul>
             </div>
         </div>
