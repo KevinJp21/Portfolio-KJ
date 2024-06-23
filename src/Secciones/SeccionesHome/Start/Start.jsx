@@ -11,7 +11,7 @@ const Start = () => {
     }
 
     return (
-        <section className="ContainerStart">
+        <section className="ContainerStart" id='Start'>
             <div className="StartContent">
                 <div className="ImgContent">
                     <img src={imgProfile} alt="Foto de perfil" width={"480px"} height={"480px"} />

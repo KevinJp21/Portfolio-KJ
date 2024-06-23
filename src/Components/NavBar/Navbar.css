@@ -61,16 +61,27 @@
     display: none;
 }
 
-.NavBar.scrolled{
+.NavBar.scrolled {
     position: fixed;
     width: 50vw;
     height: 60px;
-    background-color: var(--BGWhite);
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 20px;
     box-shadow: rgb(214, 214, 214) 15px 15px 30px 1px;
     z-index: 100;
-    backdrop-filter: blur(4px);
+    overflow: hidden; /* Asegura que el pseudo-elemento no se salga del contenedor */
+}
+
+.NavBar.scrolled::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(4px); 
+    z-index: -1; 
+    border-radius: 20px; 
 }

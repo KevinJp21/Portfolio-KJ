@@ -28,7 +28,7 @@ const Navbar = () => {
                     <h1>Kevin Julio Pineda</h1>
                     <div className="navHome">
                         <ul className="menuHome">
-                            <li><Link className="LinkNavHome Start" to="/#"><span className='linkText'>Inicio</span></Link></li>
+                            <li><a className="LinkNavHome Start" href='#Start'><span className='linkText'>Inicio</span></a></li>
                             <li><a className="LinkNavHome About" href='#About'><span className='linkText'>Sobre mi</span></a></li>
                             <li><Link className="LinkNavHome Projects" to="/#"><span className='linkText'>Proyectos</span></Link></li>
                             <li><Link className="LinkNavHome Contact" to="/login"><span className='linkText'>Contacto</span></Link></li>

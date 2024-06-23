@@ -8,8 +8,20 @@
     transform: translateX(-50%);
     border-radius: 20px;
     box-shadow: rgb(168, 168, 168) 0px 10px 40px 1px;
-    backdrop-filter: blur(4px);
     z-index: 100;
+}
+
+.FloatNavbar::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(4px); 
+    z-index: -1; 
+    border-radius: 20px; 
+   
 }
 
 
