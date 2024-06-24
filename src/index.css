@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root{
     --Grey: rgba(0, 0, 0, .56);
     --Grey-HoverLinks: rgba(0, 0, 0, .7);

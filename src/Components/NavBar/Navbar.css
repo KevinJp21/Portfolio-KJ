@@ -1,10 +1,11 @@
 .NavBar{
-    background-color: var(--BGWhite);
+ 
     transition: all 1s ease;
     
 }
 .NavBar.scrolled{
     transition: all 1s ease;
+    background-color: var(--BGWhite);
 }
 
 .NavBarHome{
@@ -28,6 +29,7 @@
 .containerNavHome h1{
     color: var(--Grey-Dark);
     font-weight: 500;
+    font-size: 16px;
 }
 
 
