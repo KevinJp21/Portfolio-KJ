@@ -41,8 +41,12 @@
     font-weight: 500;
 }
 
+.dark-mode .NavBar.scrolled .LinkNavHome{
+    color: var(--Grey-DarkMode);
+}
+
 .LinkNavHome:hover{
-    color: var(--Grey-HoverLinks);
+    color: var(--Blue-Hover);
 }
 
 .menuHome {
@@ -54,8 +58,13 @@
 }
 .menuHome li{
     padding: 0 10px;
-    font-size: 12px;
-    font-weight: 500;
+}
+
+.ChageThemeMode{
+    padding: 5px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: var(--Blue);
 }
 
 
