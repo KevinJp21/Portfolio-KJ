@@ -27,8 +27,8 @@ const Home = () => {
         <main>
             {isMobile ? <FloatNavbar /> : <NavBar />}
             <Start />
-            <About />
             <Projects />
+            <About />
         </main>
     );
 };

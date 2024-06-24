@@ -4,6 +4,8 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    
+    padding: 20px;
 }
 
 .HeaderProjects {
@@ -13,9 +15,9 @@
 
 .HeaderProjects h2 {
     text-align: center;
-    font-size: min(40px, 7vw);
+    font-size: 40px;
     font-weight: 500;
-    color: var(--Grey-Dark);
+    color: var(--Blue);
 }
 
 .ContentProjects {
@@ -119,7 +121,7 @@
 }
 
 .ToolsCard {
-    background: var(--White);
+    background: var(--Blue);
     place-content: center;
     text-align: center;
     border-radius: 5px;
@@ -128,7 +130,7 @@
 }
 
 .ToolsCard span {
-    color: var(--Grey-Dark);
+    color: var(--White);
     font-size: 13px;
 
 }

@@ -18,11 +18,11 @@ const Start = () => {
                 </div>
 
                 <div className="StartTextContent">
-                    <h2>Kevin Julio Pineda</h2>
-                    <h3>Desarrollador Frontend</h3>
+                    <h2>Hey, Soy Kevin Julio</h2>
+                    <p><strong>Ingeniero de Sistemas enfocado en el Desarrollo Frontend</strong>. de Colombia co. Especializado en el desarrollo de aplicaciones web</p>
                     <div className="BTNProfileWrapper">
                         <button className='CVBtn' onClick={handleDownloadCV}><span>Descargar CV</span></button>
-                        <button><span>Contactame</span></button>
+                        <button><a href="mailto: kevinjp821@gmail.com"><span>Contactame</span></a></button>
                     </div>
                     <div className="BTNLinkSocialr">
                         <a className='LinkSocials' href='https://github.com/KevinJp21' target="_blank"><IconGitHub className="iconSocials" width="30px" height="30px"/></a>

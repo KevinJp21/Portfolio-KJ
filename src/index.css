@@ -4,10 +4,13 @@
     --Grey-Dark: rgba(0, 0, 0, .8);
     --White: rgba(255, 255, 255, .8);
     --BGWhite: rgba(245, 245, 247, .8);
+    --Blue: rgba(0, 122, 255, .8);
+    --Blue-Hover: rgba(0, 122, 255, .7);
 
 }
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }

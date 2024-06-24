@@ -10,9 +10,15 @@ const About = () => {
 
             <div className="ContentAbout">
                 <div className="DescriptionAbout">
-                    <p>¡Hola! Soy Kevin Julio, Ingeniero de Sistemas especializado en Desarrollo Frontend. Con experiencia en la mejora continua de procesos y gestión de proyectos dentro del desarrollo de software, me dedico a crear aplicaciones web escalables y funcionales.</p>
-                    <p>Mi enfoque se centra en la arquitectura de soluciones web. Me enorgullece liderar proyectos desde la concepción hasta la entrega, asegurando resultados de alta calidad en cada etapa del ciclo de vida del desarrollo.</p>
-                    <p>Aplico metodologías ágiles y patrones de diseño para garantizar que cada proyecto no solo cumpla con las expectativas del cliente, sino que también mejore la experiencia del usuario final. Estoy siempre en busca de nuevos desafíos y oportunidades para innovar y colaborar con equipos multidisciplinarios.</p>
+                    <p>
+                        Me llamo <stron>Kevin Julio Pineda</stron> y soy <strong>ingeniero de sistemas</strong> enfocado en el <strong>desarrollo frontend</strong>. Durante mi formación universitaria, tuve la oportunidad de participar en diversas ferias tecnológicas, lo que me permitió ampliar mis conocimientos y habilidades en el campo de la ingeniería de sistemas.
+                    </p>
+                    <p>
+                        A lo largo de mi carrera, <strong>he liderado</strong> múltiples proyectos desde el concepto inicial hasta su despliegue. Utilizo <strong>metodologías ágiles</strong> y <strong>patrones de diseño</strong> para asegurar que cada proyecto se complete de manera eficiente y cumpla con los estándares de calidad más altos.
+                    </p>
+                    <p>
+                        Tengo experiencia en <strong>arquitectura de software</strong> y siempre busco implementar las mejores prácticas en mis proyectos. Mi objetivo es seguir creciendo profesionalmente y contribuir a la creación de soluciones tecnológicas innovadoras que mejoren la experiencia del usuario.
+                    </p>
                 </div>
             </div>
         </section>

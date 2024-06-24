@@ -12,7 +12,7 @@ const projects = [
     { id: 1, title: 'DocMe', description: '1', img: DocMe, tool: ['React JS', 'Express JS', 'MySQL'], Git: 'https://github.com/KevinJp21/DocMe_ReactJS', demo: 'https://docme-two.vercel.app/' },
     { id: 2, title: 'API Residencias', description: '2', img: ApiResidencias, tool: ['PHP'], Git: 'https://github.com/KevinJp21/ApiResidencia', demo: ''},
     { id: 3, title: 'API Ordenes', description: '3', img: ApiOrdenes, tool: ['Express JS'], Git: 'https://github.com/KevinJp21/API_Gestion_Orden', demo: ''},
-    { id: 4, title: 'Aistente ChatBot', description: '3', img: DocMeChatbot, tool: ['Python', 'Flask', 'TensorFlow', 'SQLAlchemy', 'NLTK', 'MySQL'], Git: 'https://github.com/KevinJp21/ChatBot', demo: ''},
+    { id: 4, title: 'Aistente ChatBot', description: '4', img: DocMeChatbot, tool: ['Python', 'Flask', 'TensorFlow', 'SQLAlchemy', 'NLTK', 'MySQL'], Git: 'https://github.com/KevinJp21/ChatBot', demo: ''},
     { id: 5, title: 'RestauranteSCocina', description: '5', img: RestauranteSCocina, tool: ['React JS', 'PHP', 'MySQL'], Git: 'https://github.com/KevinJp21/RestauranteSCocina-ReactJS', demo: 'https://restaurantescocina.netlify.app/' }
 ];
 
