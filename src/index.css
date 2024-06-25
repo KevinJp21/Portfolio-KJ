@@ -11,14 +11,17 @@
     --Blue: rgba(0, 122, 255, .8);
     --Blue-Hover: rgba(0, 122, 255, .7);
     --BG-Color-html: #fff;
+    --NavBar-bg:rgba(245, 245, 247, .5);
+    --NavBar-Shadow: rgb(214, 214, 214);
     --BG-html:radial-gradient(100% 50% at 50% 0%,rgba(0,163,255,0.13) 0,rgba(0,163,255,0) 50%,rgba(0,163,255,0) 100%);
     --imgBG:linear-gradient(0deg, rgb(199, 199, 199) 0%, rgba(245,245,247,0) 70%);
 }
 
 .dark-mode{
     --BG-Color-html:#171717;
+    --NavBar-bg: rgba(23, 22, 37, 0.5);
+    --NavBar-Shadow: rgba(23, 22, 37, 1);
     --BG-html: radial-gradient(ellipse 80% 80% at 50% -20%,rgba(120,119,198,0.3),rgba(255,255,255,0));
-    
     --Grey: rgba(255, 255, 255, 0.8);
     --Grey-DarkMode: rgba(0, 0, 0, .56);
     --Grey-Dark: rgba(255, 255, 255, 0.8);
