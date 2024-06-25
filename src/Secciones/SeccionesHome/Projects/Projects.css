@@ -104,7 +104,9 @@
 .TitleCard {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    justify-content: end;
+    flex-wrap: wrap;
+
 }
 
 .TitleCard h3 {
@@ -119,20 +121,6 @@
     gap: 10px;
 }
 
-.ToolsCard {
-    background: var(--Blue);
-    place-content: center;
-    text-align: center;
-    border-radius: 5px;
-    padding: 10px;
-
-}
-
-.ToolsCard span {
-    color: var(--White);
-    font-size: 13px;
-
-}
 
 .LinkProject svg {
     fill: var(--White);
@@ -225,6 +213,7 @@
 
     .CardProject {
         grid-column: span 2;
+        grid-row: span 1;
         
     }
 }
