@@ -53,33 +53,33 @@
 
 
 
-.dropdown{
+.NavBar .dropdown{
     position: relative;
 }
 
-.select{
+.NavBar .select{
     color: #fff;
     display: flex;
     transition: all .3s;
 }
 
-.select svg{
+.NavBar .select svg{
     stroke: var( --Grey);
     transition: all .3s;
 }
 
-.select svg:hover{
+.NavBar .select svg:hover{
     filter: drop-shadow(0px 0px 10px var(--Blue));
     transform: scale(110%);
 }
 
 
-.select-clicked svg{
+.NavBar .select-clicked svg{
     filter: drop-shadow(0px 0px 10px var(--Blue));
     transform: scale(110%);
 }
 
-.menu{
+.NavBar .menu{
     padding: 10px;
     min-width: 150px ;
     background: var(--NavBar-bg);
@@ -95,24 +95,24 @@
     backdrop-filter: blur(10px);
 }
 
-.menu li{
+.NavBar .menu li{
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
 }
 
-.menu li span{
+.NavBar .menu li span{
     font-size: 13px;
     font-weight: 400;
     color: var(--Grey);
 }
 
-.menu li:hover{
+.NavBar .menu li:hover{
     background: rgba(0, 0, 0, .2);
     
-}
+}.NavBar 
 
-.menu-open{
+.NavBar .menu-open{
     display: block;
     opacity: 1;
 

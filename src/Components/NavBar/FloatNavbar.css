@@ -2,12 +2,12 @@
     position: fixed;
     width: 70vw;
     height: 60px;
-    background-color: var(--BGWhite);
+    background-color: var(--NavBar-bg);
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 20px;
-    box-shadow: rgb(168, 168, 168) 0px 10px 40px 1px;
+    box-shadow: var(--NavBar-Shadow) 0px 10px 40px 1px;
     z-index: 100;
 }
 
@@ -21,7 +21,7 @@
     backdrop-filter: blur(4px); 
     z-index: -1; 
     border-radius: 20px; 
-   
+    background: var(--NavBar-bg);
 }
 
 
@@ -57,13 +57,13 @@
 .home-icon{
     fill: var(--Grey);
     transition: all .3s ease;
-    max-width: 30px;
+    max-width: 20px;
     width: 100%;
     
 }
 
 .home-icon:hover{
-    fill: var(--Grey-HoverLinks);
+    fill: var(--Blue);
     transform: scale(1.5);
     
 }
@@ -85,6 +85,23 @@
     padding: 0 10px;
     font-size: 12px;
     font-weight: 500;
+}
+
+
+.FloatNavbar .select svg{
+    stroke: var( --Grey);
+    transition: all .3s;
+}
+
+.FloatNavbar .select svg:hover{
+    filter: drop-shadow(0px 0px 10px var(--Blue));
+    transform: scale(110%);
+}
+
+
+.FloatNavbar .select-clicked svg{
+    filter: drop-shadow(0px 0px 10px var(--Blue));
+    transform: scale(110%);
 }
 
 @media screen and (max-width: 500px) {
