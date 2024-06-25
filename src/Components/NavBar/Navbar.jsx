@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.css';
-import { ReactComponent as Monitor } from '../../assets/Icons/Monitor.svg';
-import { ReactComponent as Sun } from '../../assets/Icons/Sun.svg';
-import { ReactComponent as Moon } from '../../assets/Icons/Moon.svg';
+import Assets from '../../assets/assets'
 
 const Navbar = () => {
     const [scroll, setScroll] = useState(false);
@@ -49,12 +47,12 @@ const Navbar = () => {
     const renderIcon = () => {
         switch (darkMode) {
             case 'light':
-                return <Sun />;
+                return <Assets.icons.Sun />;
             case 'dark':
-                return <Moon />;
+                return <Assets.icons.Moon />;
             case 'system':
             default:
-                return <Monitor />;
+                return <Assets.icons.Monitor />;
         }
     };
 

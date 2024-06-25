@@ -1,29 +1,15 @@
 import React from 'react';
 import './Projects.css';
-import DocMe from '../../../assets/Images/DocMe.png';
-import RestauranteSCocina from '../../../assets/Images/RestauranteSCocina.png'
-import ApiResidencias from '../../../assets/Images/ApiResidencias.png'
-import ApiOrdenes from '../../../assets/Images/ApiOrdenes.png'
-import DocMeChatbot from '../../../assets/Images/DocMe Chatbot.png'
 import ToolBadge from './ToolBadge';
-import { ReactComponent as LinkIcon } from '../../../assets/Icons/LinkIcon.svg';
-import { ReactComponent as GitIcon } from '../../../assets/Icons/GitHub.svg';
-import { ReactComponent as ReactJs } from '../../../assets/Icons/ReactJs.svg';
-import { ReactComponent as MySQL } from '../../../assets/Icons/MySQL.svg';
-import { ReactComponent as PHP } from '../../../assets/Icons/PHP.svg';
-import { ReactComponent as JavaScript } from '../../../assets/Icons/JavaScript.svg';
-import { ReactComponent as Python } from '../../../assets/Icons/Python.svg';
-import { ReactComponent as Flask } from '../../../assets/Icons/Flask.svg';
-import { ReactComponent as TensorFlow } from '../../../assets/Icons/Tensorflow.svg';
-import { ReactComponent as SQLA } from '../../../assets/Icons/SQLAlchemy.svg';
+import Assets from '../../../assets/assets'
 
 
 const projects = [
-    { id: 1, title: 'DocMe', description: '1', img: DocMe, tool: [{ name: "ReactJS", icon:<ReactJs/> }, {name:"ExpressJS"}, {name:"MySQL",icon:<MySQL/> } ], Git: 'https://github.com/KevinJp21/DocMe_ReactJS', demo: 'https://docme-two.vercel.app/' },
-    { id: 2, title: 'API Residencias', description: '2', img: ApiResidencias, tool: [{name:'PHP', icon: <PHP/>}], Git: 'https://github.com/KevinJp21/ApiResidencia', demo: ''},
-    { id: 3, title: 'API Ordenes', description: '3', img: ApiOrdenes, tool: [{name:"JavaScript", icon:<JavaScript/>}, {name:"ExpressJS"}], Git: 'https://github.com/KevinJp21/API_Gestion_Orden', demo: ''},
-    { id: 4, title: 'Aistente ChatBot', description: '4', img: DocMeChatbot, tool: [{name:'Python', icon: <Python/>}, {name:'Flask', icon: <Flask/>}, {name:'TensorFlow', icon: <TensorFlow/>}, {name: 'SQLAlchemy', icon: <SQLA/>}, {name:"MySQL",icon:<MySQL/> }], Git: 'https://github.com/KevinJp21/ChatBot', demo: ''},
-    { id: 5, title: 'RestauranteSCocina', description: '5', img: RestauranteSCocina, tool: [{ name: "ReactJS", icon:<ReactJs/> }, {name:'PHP', icon: <PHP/>},{name:"MySQL",icon:<MySQL/> } ], Git: 'https://github.com/KevinJp21/RestauranteSCocina-ReactJS', demo: 'https://restaurantescocina.netlify.app/' }
+    { id: 1, title: 'DocMe', description: '1', img: Assets.images.DocMe, tool: [{ name: "ReactJS", icon:<Assets.icons.ReactJs/> }, {name:"ExpressJS"}, {name:"MySQL",icon:<Assets.icons.MySQL/>}], Git: 'https://github.com/KevinJp21/DocMe_ReactJS', demo: 'https://docme-two.vercel.app/' },
+    { id: 2, title: 'API Residencias', description: '2', img: Assets.images.ApiResidencias, tool: [{name:'PHP', icon: <Assets.icons.PHP/>}], Git: 'https://github.com/KevinJp21/ApiResidencia', demo: ''},
+    { id: 3, title: 'API Ordenes', description: '3', img: Assets.images.ApiOrdenes, tool: [{name:"JavaScript", icon:<Assets.icons.JavaScript/>}, {name:"ExpressJS"}], Git: 'https://github.com/KevinJp21/API_Gestion_Orden', demo: ''},
+    { id: 4, title: 'Aistente ChatBot', description: '4', img: Assets.images.DocMeChatbot, tool: [{name:'Python', icon: <Assets.icons.Python/>}, {name:'Flask', icon:<Assets.icons.Flask/>}, {name:'TensorFlow', icon: <Assets.icons.TensorFlow/>}, {name: 'SQLAlchemy', icon: <Assets.icons.SQLA/>}, {name:"MySQL",icon:<Assets.icons.MySQL/> }], Git: 'https://github.com/KevinJp21/ChatBot', demo: ''},
+    { id: 5, title: 'RestauranteSCocina', description: '5', img: Assets.images.RestauranteSCocina, tool: [{ name: "ReactJS", icon:<Assets.icons.ReactJs/>}, {name:'PHP', icon: <Assets.icons.PHP/>},{name:"MySQL",icon:<Assets.icons.MySQL/>} ], Git: 'https://github.com/KevinJp21/RestauranteSCocina-ReactJS', demo: 'https://restaurantescocina.netlify.app/' }
 ];
 
 const Projects = () => {
@@ -39,7 +25,7 @@ const Projects = () => {
 
                         <div className="contentCard">
                             <div className="HeaderCard">
-                                <a target="-blank" href={project.demo}><LinkIcon className="IconsCards" width={"30px"} height={"30px"} /></a>
+                                <a className="IconsCards" target="-blank" href={project.demo}><Assets.icons.LinkIcon cwidth={"30px"} height={"30px"} /></a>
                             </div>
                             <div className="FooterCard">
                                 <div className="TitleCard">
@@ -51,7 +37,7 @@ const Projects = () => {
                                     </ul>
                                 </div>
                                 <div className="LinkProject">
-                                    <a target="-blank" href={project.Git}>{<GitIcon className="IconsCards" width={"30px"} height={"30px"} />}</a>
+                                    <a target="-blank" href={project.Git}>{<Assets.icons.GitIcon className="IconsCards" width={"30px"} height={"30px"} />}</a>
                                 </div>
 
                             </div>

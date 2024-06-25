@@ -1,12 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './FloatNavbar.css'
-import { ReactComponent as HomeIcon } from '../../assets/Icons/Home.svg'
-import { ReactComponent as AboutIcon } from '../../assets/Icons/IconAbout.svg'
-import { ReactComponent as ProjectIcon } from '../../assets/Icons/IconProject.svg'
-import { ReactComponent as ContactIcon } from '../../assets/Icons/IconContact.svg'
-import { ReactComponent as Monitor } from '../../assets/Icons/Monitor.svg';
-import { ReactComponent as Sun } from '../../assets/Icons/Sun.svg';
-import { ReactComponent as Moon } from '../../assets/Icons/Moon.svg';
+import Assets from '../../assets/assets'
 const FloatNavbar = () => {
     const [darkMode, setDarkMode] = useState(() => {
         const savedMode = localStorage.getItem('dark-mode');
@@ -34,12 +28,12 @@ const FloatNavbar = () => {
     const renderIcon = () => {
         switch (darkMode) {
             case 'light':
-                return <Sun />;
+                return <Assets.icons.Sun />;
             case 'dark':
-                return <Moon />;
+                return <Assets.icons.Moon />;
             case 'system':
             default:
-                return <Monitor />;
+                return <Assets.icons.Monitor />;
         }
     };
     return (
@@ -48,11 +42,11 @@ const FloatNavbar = () => {
                 <div className="containerFloatNavHome">
                     <div className="FloatnavHome">
                         <ul className="FloatmenuHome">
-                            <li><a className="LinkFloatNavHome Start" href='#Start'><HomeIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
-                            <li><a className="LinkFloatNavHome Projects" href="#projects"><ProjectIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
-                            <li><a className="LinkFloatNavHome About" href='#About'><AboutIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
-                            <li><a className="LinkFloatNavHome Contact" href="mailto: kevinjp821@gmail.com"><ContactIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
-                            <li><a className="LinkFloatNavHome Contact" href="mailto: kevinjp821@gmail.com"><ContactIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
+                            <li><a className="LinkFloatNavHome Start" href='#Start'><Assets.icons.HomeIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
+                            <li><a className="LinkFloatNavHome Projects" href="#projects"><Assets.icons.ProjectIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
+                            <li><a className="LinkFloatNavHome About" href='#About'><Assets.icons.AboutIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
+                            <li><a className="LinkFloatNavHome Contact" href="mailto: kevinjp821@gmail.com"><Assets.icons.ContactIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
+                            <li><a className="LinkFloatNavHome Contact" href="mailto: kevinjp821@gmail.com"><Assets.icons.ContactIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
                             
                             <li>
                                 <button className={`select ${darkMode}`} onClick={() => handleOptionClick(darkMode === 'light' ? 'dark' : darkMode === 'dark' ? 'system' : 'light')}>
