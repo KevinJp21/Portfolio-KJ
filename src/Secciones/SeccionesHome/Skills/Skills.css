@@ -1,0 +1,18 @@
+.ContainerSkills{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.HeaderSkills {
+    width: 100%;
+    padding: 20px;
+}
+
+.HeaderSkills h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--Grey-Dark);
+}
+

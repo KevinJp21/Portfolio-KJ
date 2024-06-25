@@ -5,6 +5,7 @@ import FloatNavbar from '../../Components/NavBar/FloatNavbar'; // Cambiar en 720
 import Start from '../../Secciones/SeccionesHome/Start/Start';
 import About from '../../Secciones/SeccionesHome/About/About';
 import Projects from '../../Secciones/SeccionesHome/Projects/Projects';
+import Skills from '../../Secciones/SeccionesHome/Skills/Skills';
 
 const Home = () => {
     const [isMobile, setIsMobile] = useState(window.matchMedia('(max-width: 720px)').matches);
@@ -32,6 +33,7 @@ const Home = () => {
             <Start />
             <Projects />
             <About />
+            <Skills />
         </main>
     </div>
     );

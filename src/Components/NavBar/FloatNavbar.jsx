@@ -49,9 +49,11 @@ const FloatNavbar = () => {
                     <div className="FloatnavHome">
                         <ul className="FloatmenuHome">
                             <li><a className="LinkFloatNavHome Start" href='#Start'><HomeIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
-                            <li><a className="LinkFloatNavHome About" href='#About'><AboutIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
                             <li><a className="LinkFloatNavHome Projects" href="#projects"><ProjectIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
+                            <li><a className="LinkFloatNavHome About" href='#About'><AboutIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
                             <li><a className="LinkFloatNavHome Contact" href="mailto: kevinjp821@gmail.com"><ContactIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
+                            <li><a className="LinkFloatNavHome Contact" href="mailto: kevinjp821@gmail.com"><ContactIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
+                            
                             <li>
                                 <button className={`select ${darkMode}`} onClick={() => handleOptionClick(darkMode === 'light' ? 'dark' : darkMode === 'dark' ? 'system' : 'light')}>
                                     {renderIcon()}

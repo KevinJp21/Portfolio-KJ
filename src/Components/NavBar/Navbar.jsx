@@ -66,8 +66,9 @@ const Navbar = () => {
                     <div className="navHome">
                         <ul className="menuHome">
                             <li><a className="LinkNavHome Start" href='#Start'><span className='linkText'>Inicio</span></a></li>
-                            <li><a className="LinkNavHome About" href='#About'><span className='linkText'>Sobre mi</span></a></li>
                             <li><a className="LinkNavHome Projects" href="#projects"><span className='linkText'>Proyectos</span></a></li>
+                            <li><a className="LinkNavHome About" href='#About'><span className='linkText'>Sobre mi</span></a></li>
+                            <li><a className="LinkNavHome Skills" href="#Skills"><span className='linkText'>Habilidades</span></a></li>
                             <li><a className="LinkNavHome Contact" href="mailto: kevinjp821@gmail.com"><span className='linkText'>Contacto</span></a></li>
                             <li>
                                 <div className="dropdown">

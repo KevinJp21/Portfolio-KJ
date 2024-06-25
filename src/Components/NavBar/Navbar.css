@@ -110,8 +110,7 @@
 .NavBar .menu li:hover{
     background: rgba(0, 0, 0, .2);
     
-}.NavBar 
-
+}
 .NavBar .menu-open{
     display: block;
     opacity: 1;
