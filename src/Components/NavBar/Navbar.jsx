@@ -70,7 +70,7 @@ const Navbar = () => {
                             <li><a className="LinkNavHome Contact" href="mailto: kevinjp821@gmail.com"><span className='linkText'>Contacto</span></a></li>
                             <li>
                                 <div className="dropdown">
-                                    <button className={`select ${dropdownOpen ? 'select-clicked' : ''}`} onClick={handleDropdownClick}>
+                                    <button title='BTNTheme' className={`select ${dropdownOpen ? 'select-clicked' : ''}`} onClick={handleDropdownClick}>
                                     {renderIcon()}
                                         <span className="selected">
                                         </span>

@@ -25,7 +25,7 @@ const Projects = () => {
 
                         <div className="contentCard">
                             <div className="HeaderCard">
-                                <a className="IconsCards" target="-blank" href={project.demo}><Assets.icons.LinkIcon cwidth={"30px"} height={"30px"} /></a>
+                                <a title='DemoProject' className="IconsCards" target="-blank" href={project.demo}><Assets.icons.LinkIcon cwidth={"30px"} height={"30px"} /></a>
                             </div>
                             <div className="FooterCard">
                                 <div className="TitleCard">
@@ -37,7 +37,7 @@ const Projects = () => {
                                     </ul>
                                 </div>
                                 <div className="LinkProject">
-                                    <a target="-blank" href={project.Git}>{<Assets.icons.GitIcon className="IconsCards" width={"30px"} height={"30px"} />}</a>
+                                    <a title='RepositoryGitHub' target="-blank" href={project.Git}>{<Assets.icons.GitIcon className="IconsCards" width={"30px"} height={"30px"} />}</a>
                                 </div>
 
                             </div>

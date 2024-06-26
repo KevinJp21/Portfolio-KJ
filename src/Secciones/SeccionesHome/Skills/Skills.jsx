@@ -56,7 +56,6 @@ const Skills = () => {
                 ))}
             </div>
 
-
             <h3 className='toolCategory'>Otros</h3>
             <div className="ContentSkills">
                 {OthersTools.map((Tool) => (
