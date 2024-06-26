@@ -21,11 +21,11 @@ const Projects = () => {
             <div className="ContentProjects">
                 {projects.map((project) => (
                     <div key={project.id} className={`CardProject Card${project.id}`}>
-                        {project.img && <img src={project.img} alt={project.title} />}
+                        {project.img && <img fetchpriority="low" src={project.img} alt={project.title} loading='lazy'/>}
 
                         <div className="contentCard">
                             <div className="HeaderCard">
-                                <a title='DemoProject' className="IconsCards" target="-blank" href={project.demo}><Assets.icons.LinkIcon cwidth={"30px"} height={"30px"} /></a>
+                                <a title='DemoProject' className="IconsCards" target="-blank" href={project.demo}><Assets.icons.LinkIcon width={"30px"} height={"30px"}/></a>
                             </div>
                             <div className="FooterCard">
                                 <div className="TitleCard">
