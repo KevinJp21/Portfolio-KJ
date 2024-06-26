@@ -1,11 +1,11 @@
 import React from 'react';
 //Imagenes
 import imgProfile from './Images/KevinJP.webp'
-import DocMe from './Images/DocMe.png';
-import RestauranteSCocina from './Images/RestauranteSCocina.png'
-import ApiResidencias from './Images/ApiResidencias.png'
-import ApiOrdenes from './Images/ApiOrdenes.png'
-import DocMeChatbot from './Images/DocMe Chatbot.png'
+import DocMe from './Images/docme.webp';
+import RestauranteSCocina from './Images/restaurantescocina.webp'
+import ApiResidencias from './Images/ApiResidencias.webp'
+import ApiOrdenes from './Images/ApiOrdenes.webp'
+import DocMeChatbot from './Images/docme-chatbot.webp'
 
 
 //Iconons
