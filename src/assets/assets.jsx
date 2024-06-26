@@ -19,6 +19,7 @@ import { ReactComponent as ContactIcon } from './Icons/IconContact.svg'
 import { ReactComponent as Monitor } from './Icons/Monitor.svg';
 import { ReactComponent as Sun } from './Icons/Sun.svg';
 import { ReactComponent as Moon } from './Icons/Moon.svg';
+import { ReactComponent as Tools } from './Icons/Tool.svg';
 
 import { ReactComponent as LinkIcon } from './Icons/LinkIcon.svg';
 import { ReactComponent as GitIcon } from './Icons/GitHub.svg';
@@ -51,6 +52,7 @@ const Assets = {
         AboutIcon,
         ProjectIcon,
         ContactIcon,
+        Tools,
         Sun,
         Moon,
         Monitor,

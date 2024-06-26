@@ -45,7 +45,7 @@ const FloatNavbar = () => {
                             <li><a className="LinkFloatNavHome Start" href='#Start'><Assets.icons.HomeIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
                             <li><a className="LinkFloatNavHome Projects" href="#projects"><Assets.icons.ProjectIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
                             <li><a className="LinkFloatNavHome About" href='#About'><Assets.icons.AboutIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
-                            <li><a className="LinkFloatNavHome Contact" href="mailto: kevinjp821@gmail.com"><Assets.icons.ContactIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
+                            <li><a className="LinkFloatNavHome Skills" href="#Skills"><Assets.icons.Tools className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
                             <li><a className="LinkFloatNavHome Contact" href="mailto: kevinjp821@gmail.com"><Assets.icons.ContactIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
                             
                             <li>

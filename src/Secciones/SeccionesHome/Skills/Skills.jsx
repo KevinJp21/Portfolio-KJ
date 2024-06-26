@@ -2,9 +2,9 @@ import React from 'react'
 import './Skills.css'
 const Skills = () => {
     return (
-        <section className="ContainerSkills" id="Skils">
+        <section className="ContainerSkills" id="Skills">
             <div className="HeaderSkills">
-                <h2>Proyectos</h2>
+                <h2>Habilidades</h2>
             </div>
 
             <div className="ContentSkills"></div>
