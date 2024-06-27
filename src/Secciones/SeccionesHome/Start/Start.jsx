@@ -12,7 +12,7 @@ const Start = () => {
         <section className="ContainerStart" id='Start'>
             <div className="StartContent">
                 <div className="ImgContent">
-                    <img src={Assets.images.imgProfile} alt="Foto de perfil" width={"300px"} height={"400px"}/>
+                    <img loading="eager" src={Assets.images.imgProfile} alt="Foto de perfil" width={"300px"} height={"400px"}/>
                 </div>
 
                 <div className="StartTextContent">
