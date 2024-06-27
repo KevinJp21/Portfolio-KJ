@@ -116,7 +116,7 @@
     const config = mainWindow.partytown || {};
     const libPath = (config.lib || "/~partytown/") + "debug/";
     const logMain = msg => {
-        console.debug.apply(console, [ "%cMain 🌎", "background: #717171; color: white; padding: 2px 3px; border-radius: 2px; font-size: 0.8em;", msg ]);
+        
     };
     const winIds = [];
     const normalizedWinId = winId => {
