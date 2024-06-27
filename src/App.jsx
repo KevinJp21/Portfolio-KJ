@@ -15,7 +15,7 @@ function App() {
           __html: '/* Inlined Third-Party Script */',
         }}
       />
-      <Suspense>
+      <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="*" element={<Navigate to={"/home"}/>}/>
