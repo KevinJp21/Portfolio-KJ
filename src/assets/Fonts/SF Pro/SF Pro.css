@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 50;
     src: local('SF Pro Display Thin'), local('SF-Pro-Display-Thin'),
-      url('./SF-Pro-Display-Thin.otf') format('opentype');
+      url('./SF-Pro-Display-Thin.woff2') format('woff2');
     font-display: swap;
   }
   
@@ -12,7 +12,7 @@
     font-style: normal;
     font-weight: 100;
     src: local('SF Pro Display Light'), local('SF-Pro-Display-Light'),
-      url('./SF-Pro-Display-Light.otf') format('opentype');
+      url('./SF-Pro-Display-Light.woff2') format('woff2');
     font-display: swap;
   }
   
@@ -21,7 +21,7 @@
     font-style: normal;
     font-weight: 200;
     src: local('SF Pro Display Regular'), local('SF-Pro-Display-Regular'),
-      url('./SF-Pro-Display-Regular.otf') format('opentype');
+      url('./SF-Pro-Display-Regular.woff2') format('woff2');
     font-display: swap;
   }
   
@@ -30,7 +30,7 @@
     font-style: normal;
     font-weight: 300;
     src: local('SF Pro Display Medium'), local('SF-Pro-Display-Medium'),
-      url('./SF-Pro-Display-Medium.otf') format('opentype');
+      url('./SF-Pro-Display-Medium.woff2') format('woff2');
     font-display: swap;
   }
   
@@ -39,7 +39,7 @@
     font-style: normal;
     font-weight: 400;
     src: local('SF Pro Display Semibold'), local('SF-Pro-Display-Semibold'),
-      url('./SF-Pro-Display-Semibold.otf') format('opentype');
+      url('./SF-Pro-Display-Semibold.woff2') format('woff2');
     font-display: swap;
   }
   
@@ -48,7 +48,7 @@
     font-style: normal;
     font-weight: 500;
     src: local('SF Pro Display Bold'), local('SF-Pro-Display-Bold'),
-      url('./SF-Pro-Display-Bold.otf') format('opentype');
+      url('./SF-Pro-Display-Bold.woff2') format('woff2');
     font-display: swap;
   }
   
@@ -57,7 +57,7 @@
     font-style: normal;
     font-weight: 600;
     src: local('SF Pro Display Heavy'), local('SF-Pro-Display-Heavy'),
-      url('./SF-Pro-Display-Heavy.otf') format('opentype');
+      url('./SF-Pro-Display-Heavy.woff2') format('woff2');
     font-display: swap;
   }
   
@@ -66,7 +66,7 @@
     font-style: normal;
     font-weight: 700;
     src: local('SF Pro Display Black'), local('SF-Pro-Display-Black'),
-      url('./SF-Pro-Display-Black.otf') format('opentype');
+      url('./SF-Pro-Display-Black.woff2') format('woff2');
     font-display: swap;
   }
   
@@ -75,7 +75,7 @@
     font-style: normal;
     font-weight: 50;
     src: local('SF Pro Text Thin'), local('SF-Pro-Text-Thin'),
-      url('./SF-Pro-Text-Thin.otf') format('opentype');
+      url('./SF-Pro-Text-Thin.woff2') format('woff2');
     font-display: swap;
   }
   
@@ -84,7 +84,7 @@
     font-style: normal;
     font-weight: 100;
     src: local('SF Pro Text Light'), local('SF-Pro-Text-Light'),
-      url('./SF-Pro-Text-Light.otf') format('opentype');
+      url('./SF-Pro-Text-Light.woff2') format('woff2');
     font-display: swap;
   }
   
@@ -93,7 +93,7 @@
     font-style: normal;
     font-weight: 200;
     src: local('SF Pro Text Regular'), local('SF-Pro-Text-Regular'),
-      url('./SF-Pro-Text-Regular.otf') format('opentype');
+      url('./SF-Pro-Text-Regular.woff2') format('woff2');
     font-display: swap;
   }
   
@@ -102,7 +102,7 @@
     font-style: normal;
     font-weight: 300;
     src: local('SF Pro Text Medium'), local('SF-Pro-Text-Medium'),
-      url('./SF-Pro-Text-Medium.otf') format('opentype');
+      url('./SF-Pro-Text-Medium.woff2') format('woff2');
     font-display: swap;
   }
   
@@ -111,7 +111,7 @@
     font-style: normal;
     font-weight: 400;
     src: local('SF Pro Text Semibold'), local('SF-Pro-Text-Semibold'),
-      url('./SF-Pro-Text-Semibold.otf') format('opentype');
+      url('./SF-Pro-Text-Semibold.woff2') format('woff2');
     font-display: swap;
   }
   
@@ -120,7 +120,7 @@
     font-style: normal;
     font-weight: 500;
     src: local('SF Pro Text Bold'), local('SF-Pro-Text-Bold'),
-      url('./SF-Pro-Text-Bold.otf') format('opentype');
+      url('./SF-Pro-Text-Bold.woff2') format('woff2');
     font-display: swap;
   }
   
@@ -129,7 +129,7 @@
     font-style: normal;
     font-weight: 600;
     src: local('SF Pro Text Heavy'), local('SF-Pro-Text-Heavy'),
-      url('./SF-Pro-Text-Heavy.otf') format('opentype');
+      url('./SF-Pro-Text-Heavy.woff2') format('woff2');
     font-display: swap;
   }
   
@@ -138,7 +138,7 @@
     font-style: normal;
     font-weight: 700;
     src: local('SF Pro Text Black'), local('SF-Pro-Text-Black'),
-      url('./SF-Pro-Text-Black.otf') format('opentype');
+      url('./SF-Pro-Text-Black.woff2') format('woff2');
     font-display: swap;
   }
 
