@@ -21,7 +21,7 @@ const Projects = () => {
             <div className="ContentProjects">
                 {projects.map((project) => (
                     <div key={project.id} className={`CardProject Card${project.id}`}>
-                        {project.img && <img fetchpriority="low" src={project.img} alt={project.title} loading='lazy'/>}
+                        {project.img && <img decoding="async" fetchpriority="low" src={project.img} alt={project.title} loading='lazy'/>}
 
                         <div className="contentCard">
                             <div className="HeaderCard">

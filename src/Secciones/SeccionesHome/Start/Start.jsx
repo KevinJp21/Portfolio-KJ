@@ -2,6 +2,12 @@ import React from 'react'
 import './Start.css'
 import Assets from '../../../assets/assets'
 
+function preloadImage(src) {
+    const img = new Image();
+    img.src = src;
+  }
+  
+  preloadImage(Assets.images.imgProfile);
 const Start = () => {
 
     const handleDownloadCV = () =>{
