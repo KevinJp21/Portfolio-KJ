@@ -1,7 +1,8 @@
-.NavBar{
+/*.NavBar{
     transition: all 1s ease;
+    
 }
-
+*/
 .NavBarHome{
     height: 100%;
     display: flex;
@@ -30,7 +31,7 @@
 .LinkNavHome{
     text-decoration: none;
     color: var(--Grey);
-    transition: .3s ease-out;
+    /*transition: .3s ease-out;*/
     font-size: 13px;
     font-weight: 500;
 }
@@ -59,12 +60,12 @@
 .NavBar .select{
     color: #fff;
     display: flex;
-    transition: all .3s;
+    /*transition: all .3s;*/
 }
 
 .NavBar .select svg{
     stroke: var( --Grey);
-    transition: all .3s;
+    /*transition: all .3s;*/
 }
 
 .NavBar .select svg:hover{
@@ -116,16 +117,22 @@
 
 }
 
+/*.NavBar.scrolled{
+    transition: all 1s ease;
+}*/
+
+
 .NavBar.scrolled .NavBarHome .containerNavHome h1{
     display: none;
 }
 
 .NavBar.scrolled {
-    position: fixed ;
+    position: fixed;
     width: 50vw;
     height: 60px;
     top: 20px;
-    right: 20%;
+    left: 50%;
+    transform: translateX(-50%);
     border-radius: 20px;
     box-shadow: var(--NavBar-Shadow) 5px 0px 40px 1px;
     z-index: 100;
