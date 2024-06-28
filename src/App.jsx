@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react'
+import React from 'react'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { Partytown } from '@builder.io/partytown/react';
@@ -15,12 +15,10 @@ function App() {
           __html: '/* Inlined Third-Party Script */',
         }}
       />
-      <Suspense >
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="*" element={<Navigate to={"/home"}/>}/>
         </Routes>
-      </Suspense>
     </Router>
   )
 }
