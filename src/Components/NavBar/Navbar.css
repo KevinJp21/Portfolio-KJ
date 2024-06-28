@@ -1,10 +1,5 @@
-header{
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-
+.NavBar{
+    transition: all 1s ease;
 }
 
 .NavBarHome{
