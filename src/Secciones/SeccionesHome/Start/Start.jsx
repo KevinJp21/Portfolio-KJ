@@ -2,12 +2,6 @@ import React from 'react'
 import './Start.css'
 import Assets from '../../../assets/assets'
 
-function preloadImage(src) {
-    const img = new Image();
-    img.src = src;
-  }
-  
-  preloadImage(Assets.images.imgProfile);
 const Start = () => {
 
     const handleDownloadCV = () =>{
@@ -18,7 +12,7 @@ const Start = () => {
         <section className="ContainerStart" id='Start'>
             <div className="StartContent">
                 <div className="ImgContent">
-                    <img fetchpriority="hight" loading="eager" src={Assets.images.imgProfile} alt="Foto de perfil" width={"300px"} height={"400px"}/>
+                    <img src={Assets.images.imgProfile} alt="Foto de perfil" width={"300px"} height={"400px"}/>
                 </div>
 
                 <div className="StartTextContent">
