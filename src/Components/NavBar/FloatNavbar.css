@@ -49,14 +49,14 @@
 .LinkFloatNavHome {
     text-decoration: none;
     color: var(--Grey);
-    transition: .3s ease-out;
+    /*transition: .3s ease-out;*/
     font-size: 13px;
     font-weight: 500;
 }
 
 .home-icon{
     fill: var(--Grey);
-    transition: all .3s ease;
+    /*transition: all .3s ease;*/
     max-width: 20px;
     width: 100%;
     
@@ -90,7 +90,7 @@
 
 .FloatNavbar .select svg{
     stroke: var( --Grey);
-    transition: all .3s;
+    /*transition: all .3s;*/
 }
 
 .FloatNavbar .select svg:hover{
