@@ -2,8 +2,7 @@ import React, { useEffect, useState, useRef, Suspense, lazy } from 'react';
 import './Home.css';
 import NavBar from '../../Components/NavBar/Navbar';
 import FloatNavbar from '../../Components/NavBar/FloatNavbar';
-
-const Start = lazy(() => import('../../Secciones/SeccionesHome/Start/Start'));
+import Start from '../../Secciones/SeccionesHome/Start/Start';
 const About = lazy(() => import('../../Secciones/SeccionesHome/About/About'));
 const Projects = lazy(() => import('../../Secciones/SeccionesHome/Projects/Projects'));
 const Skills = lazy(() => import('../../Secciones/SeccionesHome/Skills/Skills'));
@@ -21,7 +20,7 @@ const LazyLoadSection = ({ component: Component, fallback }) => {
         }, {
             root: null,
             rootMargin: '0px',
-            threshold: 0.6,
+            threshold: 0.01,
         });
 
         if (ref.current) {
@@ -69,7 +68,7 @@ const Home = () => {
             <div className="bg-absolute fixed top-0 z-[-2] h-screen w-screen"></div>
             <main className="relative z-10">
                 {isMobile ? <FloatNavbar /> : <NavBar />}
-                <LazyLoadSection component={Start} />
+                <Start />
                 <LazyLoadSection component={Projects} fallback={<div className='fallback'>Loading Projects...</div>} />
                 <LazyLoadSection component={About} fallback={<div className='fallback'>Loading About...</div>} />
                 <LazyLoadSection component={Skills} fallback={<div className='fallback'>Loading Skills...</div>} />
