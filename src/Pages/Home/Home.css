@@ -6,14 +6,3 @@
 .fallback{
     height: 100vh;
 }
-
-.lazyLoadSectionHome{
-    opacity: 0;
-    transform: translateY(60%);
-    transition: opacity .5s ease-out, transform .5s ease;
-}
-
-.lazyLoadSectionHome.visible{
-    opacity: 1;
-    transform: translateY(0);
-}

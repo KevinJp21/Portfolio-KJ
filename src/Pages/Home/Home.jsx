@@ -21,7 +21,7 @@ const LazyLoadSection = ({ component: Component, fallback }) => {
         }, {
             root: null,
             rootMargin: '0px',
-            threshold: 0.05,
+            threshold: 0.6,
         });
 
         if (ref.current) {
@@ -69,7 +69,7 @@ const Home = () => {
             <div className="bg-absolute fixed top-0 z-[-2] h-screen w-screen"></div>
             <main className="relative z-10">
                 {isMobile ? <FloatNavbar /> : <NavBar />}
-                <LazyLoadSection component={Start} fallback={<div className='fallback'>Loading Start...</div>} />
+                <LazyLoadSection component={Start} />
                 <LazyLoadSection component={Projects} fallback={<div className='fallback'>Loading Projects...</div>} />
                 <LazyLoadSection component={About} fallback={<div className='fallback'>Loading About...</div>} />
                 <LazyLoadSection component={Skills} fallback={<div className='fallback'>Loading Skills...</div>} />

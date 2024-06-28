@@ -1,8 +1,12 @@
-/*.NavBar{
-    transition: all 1s ease;
-    
+header{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+
 }
-*/
+
 .NavBarHome{
     height: 100%;
     display: flex;
@@ -31,7 +35,7 @@
 .LinkNavHome{
     text-decoration: none;
     color: var(--Grey);
-    /*transition: .3s ease-out;*/
+    transition: .3s ease-out;
     font-size: 13px;
     font-weight: 500;
 }
@@ -60,12 +64,12 @@
 .NavBar .select{
     color: #fff;
     display: flex;
-    /*transition: all .3s;*/
+    transition: all .3s;
 }
 
 .NavBar .select svg{
     stroke: var( --Grey);
-    /*transition: all .3s;*/
+    transition: all .3s;
 }
 
 .NavBar .select svg:hover{
@@ -117,22 +121,16 @@
 
 }
 
-/*.NavBar.scrolled{
-    transition: all 1s ease;
-}*/
-
-
 .NavBar.scrolled .NavBarHome .containerNavHome h1{
     display: none;
 }
 
 .NavBar.scrolled {
-    position: fixed;
-    width: 50vw;
+    position: fixed !important;
+    width: 50vw !important;
     height: 60px;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 20px !important;
+    right: 20%;
     border-radius: 20px;
     box-shadow: var(--NavBar-Shadow) 5px 0px 40px 1px;
     z-index: 100;
