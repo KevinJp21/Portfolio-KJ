@@ -1,6 +1,6 @@
 import React from 'react'
 import './Start.css'
-import imgProfile from '../../../assets/Images/KevinJP.webp'
+import imgProfile from '../../../assets/Images/KevinJP.avif'
 
 //Iconos
 import { ReactComponent as IconGitHub } from '../../../assets/Icons/GitHub.svg';
