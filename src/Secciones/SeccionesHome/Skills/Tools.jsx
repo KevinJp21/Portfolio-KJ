@@ -5,6 +5,9 @@ export const Tools = ({ Logo, name }) => {
     return (
         <div className={`cardsSkills ${name}`}>
             <img decoding="async" fetchpriority="low" src={Logo} alt={name} width={'200px'} height={'200px'} loading='lazy'/>
+            <div className="ContentCardsSkills">
+                <span>{name}</span>
+            </div>
         </div>
     );
 }
