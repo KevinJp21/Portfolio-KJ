@@ -57,9 +57,9 @@ const FloatNavbar = () => {
                             <li><a className="LinkFloatNavHome Skills" href="#Skills" aria-label="Skills"><Tools className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
                             <li><a className="LinkFloatNavHome Contact" href="mailto: kevinjp821@gmail.com" aria-label="Contact"><ContactIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
                             <li>
-                                <button title='BTNTheme' className={`select ${darkMode}`} onClick={() => handleOptionClick(darkMode === 'light' ? 'dark' : darkMode === 'dark' ? 'system' : 'light')}>
+                                <a title='BTNTheme' className={`select ${darkMode}`} onClick={() => handleOptionClick(darkMode === 'light' ? 'dark' : darkMode === 'dark' ? 'system' : 'light')}>
                                     {renderIcon()}
-                                </button>
+                                </a>
                             </li>
                         </ul>
                     </div>

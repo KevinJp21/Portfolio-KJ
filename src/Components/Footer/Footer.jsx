@@ -11,7 +11,7 @@ const Footer = () => {
                 <ul className='FooterList'>
                     <li><a title='GitHub' className='LinkFooter LinkSocials' href='https://github.com/KevinJp21' target="_blank"><IconGitHub className="FTiconSocials" width="30px" height="30px"/></a></li>
                     <li><a title='Linkedin' className='LinkFooter LinkSocials' href='https://www.linkedin.com/in/kevin-julio-667280240/' target="_blank"><IconLinkedin  className="FTiconSocials" width="30px" height="30px"/></a></li>
-                    <li><a className="LinkFooter Contact" href="mailto: kevinjp821@gmail.com" aria-label="Contact"><ContactIcon className="FTiconSocials" width={"30px"} heigh={"30px"} /></a></li>
+                    <li><a title='Contacto' className="LinkFooter Contact" href="mailto: kevinjp821@gmail.com" aria-label="Contact"><ContactIcon className="FTiconSocials" width={"30px"} heigh={"30px"} /></a></li>
                 </ul>
             </div>
         </footer>

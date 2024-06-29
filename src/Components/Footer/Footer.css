@@ -25,7 +25,7 @@ footer{
 }
 
 .ContentFooter span{
-    font-size: min(14px, 3.8vw);
+    font-size: min(14px, 3.3vw);
     font-weight: 800;
     color: var(--Grey-Dark);
 }
@@ -44,7 +44,7 @@ footer{
 .FTiconSocials{
     width: 30px;
     height: 30px;
-    fill: var(--Grey);
+    fill: var(--Grey-Dark);
     transition: .3s ease;
 }
 

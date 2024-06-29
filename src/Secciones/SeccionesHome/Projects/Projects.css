@@ -181,8 +181,8 @@
 @media screen and (max-width: 624px) {
 
     .CardProject {
-        grid-column: span 3;
-        grid-row: span 2;
+        grid-column: span 3 !important;
+        grid-row: span 1 !important;
         
     }
 }

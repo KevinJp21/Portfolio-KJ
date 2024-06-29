@@ -1,5 +1,6 @@
 .NavBar{
-    transition: all 1s ease;
+    top: 0;
+    transition: top .1s ease-in;
     
 }
 .NavBarHome{
@@ -115,11 +116,6 @@
     opacity: 1;
 
 }
-
-.NavBar.scrolled{
-    transition: all 1s ease;
-}
-
 
 .NavBar.scrolled .NavBarHome .containerNavHome h1{
     display: none;
