@@ -9,7 +9,7 @@ import { ReactComponent as Moon } from '../../assets/Icons/Moon.svg';
 const Navbar = () => {
     const [scroll, setScroll] = useState(false);
     const [darkMode, setDarkMode] = useState(() => {
-        const savedMode = localStorage.getItem('dark-mode');
+        const savedMode = sessionStorage.getItem('dark-mode');
         return savedMode !== null ? savedMode : 'system';
     });
     const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -23,7 +23,7 @@ const Navbar = () => {
 
     const changeThemeMode = (mode) => {
         setDarkMode(mode);
-        localStorage.setItem('dark-mode', mode);
+        sessionStorage.setItem('dark-mode', mode);
     };
 
     useEffect(() => {
