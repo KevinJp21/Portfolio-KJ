@@ -12,12 +12,12 @@ import { ReactComponent as Tools } from '../../assets/Icons/Tool.svg';
 
 const FloatNavbar = () => {
     const [darkMode, setDarkMode] = useState(() => {
-        const savedMode = localStorage.getItem('dark-mode');
+        const savedMode = sessionStorage.getItem('dark-mode');
         return savedMode !== null ? savedMode : 'system';
     });
     const changeThemeMode = (mode) => {
         setDarkMode(mode);
-        localStorage.setItem('dark-mode', mode);
+        sessionStorage.setItem('dark-mode', mode);
     };
 
     useEffect(() => {
