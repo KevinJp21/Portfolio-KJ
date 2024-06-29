@@ -50,8 +50,6 @@
     text-decoration: none;
     color: var(--Grey);
     transition: .3s ease-out;
-    font-size: 13px;
-    font-weight: 500;
 }
 
 .home-icon{
@@ -83,8 +81,6 @@
 
 .FloatmenuHome li {
     padding: 0 10px;
-    font-size: 12px;
-    font-weight: 500;
 }
 
 

@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef, Suspense, lazy } from 'react';
 import './Home.css';
 import NavBar from '../../Components/NavBar/Navbar';
 import FloatNavbar from '../../Components/NavBar/FloatNavbar';
+
 import Start from '../../Secciones/SeccionesHome/Start/Start';
 const About = lazy(() => import('../../Secciones/SeccionesHome/About/About'));
 const Projects = lazy(() => import('../../Secciones/SeccionesHome/Projects/Projects'));
@@ -20,7 +21,7 @@ const LazyLoadSection = ({ component: Component, fallback }) => {
         }, {
             root: null,
             rootMargin: '0px',
-            threshold: 0.01,
+            threshold: 0.1,
         });
 
         if (ref.current) {

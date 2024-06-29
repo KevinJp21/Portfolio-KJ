@@ -2,3 +2,17 @@
     background: var(--BG-html);
     background-color: var(--BG-Color-html);
 }
+
+.fallback{
+    height: 50vh;
+}
+
+.lazyLoadSectionHome{
+    opacity: 0;
+
+}
+
+.lazyLoadSectionHome.visible{
+    opacity: 1;
+
+}
