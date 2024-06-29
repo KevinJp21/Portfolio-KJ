@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef, Suspense, lazy } from 'react';
 import './Home.css';
 import NavBar from '../../Components/NavBar/Navbar';
 import FloatNavbar from '../../Components/NavBar/FloatNavbar';
+import Footer from '../../Components/Footer/Footer';
 
 import Start from '../../Secciones/SeccionesHome/Start/Start';
 const About = lazy(() => import('../../Secciones/SeccionesHome/About/About'));
@@ -73,6 +74,7 @@ const Home = () => {
                 <LazyLoadSection component={Projects} fallback={<div className='fallback'>Loading Projects...</div>} />
                 <LazyLoadSection component={About} fallback={<div className='fallback'>Loading About...</div>} />
                 <LazyLoadSection component={Skills} fallback={<div className='fallback'>Loading Skills...</div>} />
+                <Footer />
             </main>
         </div>
     );
