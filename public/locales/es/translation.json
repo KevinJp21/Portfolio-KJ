@@ -1,0 +1,48 @@
+{
+  "Header": {
+    "start": "Inicio",
+    "projects": "Proyectos",
+    "about_me": "Sobre mi",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  },
+  "Home": {
+    "name": "Hey, Soy Kevin Julio",
+    "descStrong": "Ingeniero de Sistemas enfocado en el Desarrollo Frontend",
+    "description": ". De Colombia co. Especializado en el desarrollo de aplicaciones web.",
+    "btnCV": "Descargar CV",
+    "btnContact": "Contactame"
+  },
+  "Projects": {
+    "title": "Proyectos",
+    "p1": "DocMe",
+    "p2": "API Residencias",
+    "p3": "API Ordenes",
+    "p4": "Asistente Chatbot",
+    "p5": "RestauranteSCocina"
+  },
+  
+    "About": {
+    "title": "Acerca de mí",
+    "p1": [
+      "Me llamo <strong>Kevin Julio Pineda</strong> y soy <strong>ingeniero de sistemas</strong> enfocado en el <strong>desarrollo frontend</strong>. Durante mi formación universitaria, tuve la oportunidad de participar en diversas ferias tecnológicas, lo que me permitió ampliar mis conocimientos y habilidades en el campo de la ingeniería de sistemas.",
+      "A lo largo de mi carrera, <strong>he liderado</strong> múltiples proyectos desde el concepto inicial hasta su despliegue. Utilizo <strong>metodologías ágiles</strong> y <strong>patrones de diseño</strong> para asegurar que cada proyecto se complete de manera eficiente y cumpla con los estándares de calidad más altos.",
+      "Tengo experiencia en <strong>arquitectura de software</strong> y siempre busco implementar las mejores prácticas en mis proyectos. Mi objetivo es seguir creciendo profesionalmente y contribuir a la creación de soluciones tecnológicas innovadoras que mejoren la experiencia del usuario."
+    ],
+    "p2": [
+      "A lo largo de mi carrera, <strong>he liderado</strong> múltiples proyectos desde el concepto inicial hasta su despliegue. Utilizo <strong>metodologías ágiles</strong> y <strong>patrones de diseño</strong> para asegurar que cada proyecto se complete de manera eficiente y cumpla con los estándares de calidad más altos."
+    ],
+    "p3": [
+      "Tengo experiencia en <strong>arquitectura de software</strong> y siempre busco implementar las mejores prácticas en mis proyectos. Mi objetivo es seguir creciendo profesionalmente y contribuir a la creación de soluciones tecnológicas innovadoras que mejoren la experiencia del usuario."
+    ]
+  },
+  "Skills": {
+    "title": "Skills",
+    "SubTitle1": "LLenguajes y Herramientas",
+    "SubTitle2": "Inteligencia Artificial y Ciencia de Datos",
+    "SubTitle3": "Otros"
+    },
+    "Footer": {
+      "author": "Hecho por KevinJp21"
+    }
+}

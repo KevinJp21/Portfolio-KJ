@@ -1,0 +1,45 @@
+{
+  "Header": {
+    "start": "Home",
+    "projects": "Projects",
+    "about_me": "About",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "Home": {
+    "name": "Hey, I'm Kevin Julio",
+    "descStrong": "Systems Engineer focused in Frontend Development",
+    "description": ". From Colombia co. specialized in web application development.",
+    "btnCV": "Download CV",
+    "btnContact": "Contact me"
+  },
+  "Projects": {
+    "title": "Projects",
+    "p1": "DocMe",
+    "p2": "API Residences",
+    "p3": "API Orders",
+    "p4": "Chatbot assistant",
+    "p5": "RestauranteSCocina"
+  },
+  "About": {
+    "title": "About me",
+    "p1": [
+      "My name is <strong>Kevin Julio Pineda</strong> and I am a <strong>systems engineer</strong> focused on <strong>frontend development</strong>. During my university education, I had the opportunity to participate in various technology fairs, which allowed me to expand my knowledge and skills in the field of systems engineering."
+    ],
+    "p2": [
+      "Throughout my career, <strong>I have led</strong> multiple projects from initial concept to deployment. I use <strong>agile methodologies</strong> and <strong>design patterns</strong> to ensure each project is completed efficiently and meets the highest quality standards."
+    ],
+    "p3": [
+      "I have experience in <strong>software architecture</strong> and always strive to implement best practices in my projects. My goal is to continue growing professionally and contribute to creating innovative technological solutions that enhance user experience."
+    ]
+  },
+  "Skills": {
+    "title": "Skills",
+    "SubTitle1": "Languages and Tools",
+    "SubTitle2": "Artificial Intelligence and Data Science",
+    "SubTitle3": "Others"
+  },
+  "Footer": {
+    "author": "Build by KevinJp21"
+  }
+}

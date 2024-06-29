@@ -31,7 +31,11 @@ import Vite_Logo from '../../../assets/Logos/Vite.webp'
 import pnpm_Logo from '../../../assets/Logos/pnpm.webp'
 import Git_Logo from '../../../assets/Logos/Git.webp'
 
+//Translation
+import { useTranslation } from 'react-i18next'
+
 const Skills = () => {
+    const { t } = useTranslation();
 
     const Tool = [{ id: 1, name: 'Java', Logo: Java_Logo },
     { id: 2, name: 'JavaScript', Logo: JavaScript_Logo },
@@ -68,23 +72,23 @@ const Skills = () => {
     return (
         <section className="ContainerSkills" id="Skills">
             <div className="HeaderSkills">
-                <h2>Habilidades</h2>
+                <h2>{t('Skills.title')}</h2>
             </div>
-            <h3 className='toolCategory'>Lenguajes y Herramientas</h3>
+            <h3 className='toolCategory'>{t('Skills.SubTitle1')}</h3>
             <div className="ContentSkills">
                 {Tool.map((Tool) => (
                     <Tools key={Tool.id} Logo={Tool.Logo} name={Tool.name} className={`cardsSkills`} />
                 ))}
             </div>
 
-            <h3 className='toolCategory'>Inteligencia Artificial y Ciencia de Datos</h3>
+            <h3 className='toolCategory'>{t('Skills.SubTitle2')}</h3>
             <div className="ContentSkills">
                 {ToolIA.map((Tool) => (
                     <Tools key={Tool.id} Logo={Tool.Logo} name={Tool.name} className={`cardsSkills`} />
                 ))}
             </div>
 
-            <h3 className='toolCategory'>Otros</h3>
+            <h3 className='toolCategory'>{t('Skills.SubTitle3')}</h3>
             <div className="ContentSkills">
                 {OthersTools.map((Tool) => (
                     <Tools key={Tool.id} Logo={Tool.Logo} name={Tool.name} className={`cardsSkills`} />
