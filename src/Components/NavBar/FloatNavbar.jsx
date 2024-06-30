@@ -9,8 +9,12 @@ import { ReactComponent as Monitor } from '../../assets/Icons/Monitor.svg';
 import { ReactComponent as Sun } from '../../assets/Icons/Sun.svg';
 import { ReactComponent as Moon } from '../../assets/Icons/Moon.svg';
 import { ReactComponent as Tools } from '../../assets/Icons/Tool.svg';
+import { ReactComponent as World } from '../../assets/Icons/World.svg';
+import { useTranslation } from 'react-i18next';
 
 const FloatNavbar = () => {
+    const [languageDropdownOpen, setLanguageDropdownOpen] = useState(false);
+    const { t, i18n } = useTranslation();
     const [darkMode, setDarkMode] = useState(() => {
         const savedMode = sessionStorage.getItem('dark-mode');
         return savedMode !== null ? savedMode : 'system';
@@ -45,6 +49,37 @@ const FloatNavbar = () => {
                 return <Monitor />;
         }
     };
+
+
+    const [lngMode, setLngMode] = useState(() => {
+        const savedLNG = sessionStorage.getItem('lng');
+        return savedLNG !== null ? savedLNG : 'en';
+    });
+
+    const changeLNGMode = (mode) => {
+        setLngMode(mode);
+        sessionStorage.setItem('lng', mode);
+        i18n.changeLanguage(mode);
+    };
+
+    useEffect(() => {
+        const savedLNG = sessionStorage.getItem('lng');
+        if (savedLNG && savedLNG !== i18n.language) {
+            i18n.changeLanguage(savedLNG);
+        }
+    }, [i18n]);
+
+    const handleLanguageChange = (lng) => {
+        changeLNGMode(lng);
+        setLanguageDropdownOpen(false);
+    };
+
+    const languages = [
+        { label: 'Español', value: 'es' },
+        { label: 'English', value: 'en' },
+    ];
+
+
     return (
         <header className='FloatNavbar'>
             <nav className='FloatNavBarHome'>
@@ -53,13 +88,30 @@ const FloatNavbar = () => {
                         <ul className="FloatmenuHome">
                             <li><a className="LinkFloatNavHome Start" href='#Start' aria-label="Start"><HomeIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
                             <li><a className="LinkFloatNavHome Projects" href="#projects" aria-label="Projects"><ProjectIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
-                            <li><a className="LinkFloatNavHome About" href='#About'  aria-label="About" ><AboutIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
+                            <li><a className="LinkFloatNavHome About" href='#About' aria-label="About" ><AboutIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
                             <li><a className="LinkFloatNavHome Skills" href="#Skills" aria-label="Skills"><Tools className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
                             <li><a className="LinkFloatNavHome Contact" href="mailto: kevinjp821@gmail.com" aria-label="Contact"><ContactIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
                             <li>
                                 <a title='BTNTheme' className={`select ${darkMode}`} onClick={() => handleOptionClick(darkMode === 'light' ? 'dark' : darkMode === 'dark' ? 'system' : 'light')}>
                                     {renderIcon()}
                                 </a>
+                            </li>
+                            <li>
+                                <div className="dropdown">
+                                    <button title='BTNLanguage' className={`select ${languageDropdownOpen ? 'select-clicked' : ''}`} onClick={() => setLanguageDropdownOpen(!languageDropdownOpen)}>
+                                        <World />
+                                        <span className="selected"></span>
+                                    </button>
+                                    {languageDropdownOpen && (
+                                        <ul className="menu menu-open">
+                                            {languages.map(language => (
+                                                <li key={language.value} className={language.value === lngMode ? 'active' : ''} onClick={() => handleLanguageChange(language.value)}>
+                                                    <span>{language.label}</span>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    )}
+                                </div>
                             </li>
                         </ul>
                     </div>

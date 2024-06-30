@@ -86,18 +86,66 @@
 
 .FloatNavbar .select svg{
     stroke: var( --Grey);
+    max-width: 25px;
+    width: 100%;
     transition: all .3s;
+    
+}
+
+.FloatNavbar .dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.FloatNavbar .menu{
+    padding: 10px;
+    min-width: 150px ;
+    background: var(--NavBar-bg);
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    color: #9fa5b5;
+    position: absolute;
+    top: 2.8rem;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+    display: none;
+    backdrop-filter: blur(10px);
+}
+
+.FloatNavbar .menu li{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.FloatNavbar .menu li span{
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--Grey);
+}
+
+.FloatNavbar .menu li:hover{
+    background: rgba(0, 0, 0, .2);
+    
+}
+.FloatNavbar .menu-open{
+    display: block;
+    opacity: 1;
+
 }
 
 .FloatNavbar .select svg:hover{
     filter: drop-shadow(0px 0px 10px var(--Blue));
-    transform: scale(110%);
+    transform: scale(1.1);
 }
 
 
 .FloatNavbar .select-clicked svg{
     filter: drop-shadow(0px 0px 10px var(--Blue));
-    transform: scale(110%);
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 500px) {
