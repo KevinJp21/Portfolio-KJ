@@ -92,13 +92,13 @@ const FloatNavbar = () => {
                             <li><a className="LinkFloatNavHome Skills" href="#Skills" aria-label="Skills"><Tools className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
                             <li><a className="LinkFloatNavHome Contact" href="mailto: kevinjp821@gmail.com" aria-label="Contact"><ContactIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
                             <li>
-                                <a title='BTNTheme' className={`select ${darkMode}`} onClick={() => handleOptionClick(darkMode === 'light' ? 'dark' : darkMode === 'dark' ? 'system' : 'light')}>
+                                <a title={t("Header.BtnThemMode")} className={`select ${darkMode}`} onClick={() => handleOptionClick(darkMode === 'light' ? 'dark' : darkMode === 'dark' ? 'system' : 'light')}>
                                     {renderIcon()}
                                 </a>
                             </li>
                             <li>
                                 <div className="dropdown">
-                                    <button title='BTNLanguage' className={`select ${languageDropdownOpen ? 'select-clicked' : ''}`} onClick={() => setLanguageDropdownOpen(!languageDropdownOpen)}>
+                                    <button title={t("Header.BtnThemMode")} className={`select ${languageDropdownOpen ? 'select-clicked' : ''}`} onClick={() => setLanguageDropdownOpen(!languageDropdownOpen)}>
                                         <World />
                                         <span className="selected"></span>
                                     </button>

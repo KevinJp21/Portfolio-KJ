@@ -57,6 +57,11 @@
     position: relative;
 }
 
+.NavBar .dropdown svg{
+    width: 25px;
+    height: 25px;
+}
+
 .NavBar .select{
     color: #fff;
     display: flex;

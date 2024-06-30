@@ -4,7 +4,9 @@
     "projects": "Proyectos",
     "about_me": "Sobre mi",
     "skills": "Habilidades",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "BtnThemMode": "Tema",
+    "BtnTLanguage": "Lenguaje"
   },
   "Home": {
     "name": "Hey, Soy Kevin Julio",

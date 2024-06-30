@@ -107,7 +107,7 @@ const Navbar = () => {
               <li><a className="LinkNavHome Contact" href="mailto: kevinjp821@gmail.com"><span className='linkText'>{t('Header.contact')}</span></a></li>
               <li>
                 <div className="dropdown">
-                  <button title='BTNTheme' className={`select ${dropdownOpen ? 'select-clicked' : ''}`} onClick={handleDropdownClick}>
+                  <button title={t("Header.BtnThemMode")} className={`select ${dropdownOpen ? 'select-clicked' : ''}`} onClick={handleDropdownClick}>
                     {renderIcon()}
                     <span className="selected"></span>
                   </button>
@@ -124,7 +124,7 @@ const Navbar = () => {
               </li>
               <li>
                 <div className="dropdown">
-                  <button title='BTNLanguage' className={`select ${languageDropdownOpen ? 'select-clicked' : ''}`} onClick={() => setLanguageDropdownOpen(!languageDropdownOpen)}>
+                  <button title={t("Header.BtnTLanguage")} className={`select ${languageDropdownOpen ? 'select-clicked' : ''}`} onClick={() => setLanguageDropdownOpen(!languageDropdownOpen)}>
                     <World />
                     <span className="selected"></span>
                   </button>

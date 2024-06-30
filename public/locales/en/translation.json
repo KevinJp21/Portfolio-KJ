@@ -4,7 +4,9 @@
     "projects": "Projects",
     "about_me": "About",
     "skills": "Skills",
-    "contact": "Contact"
+    "contact": "Contact",
+    "BtnThemMode": "Theme Mode",
+    "BtnTLanguage": "Language"
   },
   "Home": {
     "name": "Hey, I'm Kevin Julio",
