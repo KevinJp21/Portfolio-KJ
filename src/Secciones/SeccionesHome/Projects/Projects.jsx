@@ -43,7 +43,7 @@ const Projects = () => {
     ];
 
     return (
-        <section className="ContainerProjects" id='projects'>
+        <section className="ContainerProjects" id='Projects'>
             <div className="HeaderProjects">
                 <h2>{t('Projects.title')}</h2>
             </div>
@@ -58,7 +58,7 @@ const Projects = () => {
                             </div>
                             <div className="FooterCard">
                                 <div className="TitleCard">
-                                    <Link href=""><h3>{project.title}</h3></Link>
+                                    <Link to={project.title}><h3>{project.title}</h3></Link>
                                     <ul className="ToolsWrapper">
                                         {project.tool && project.tool.map((tool, index) => (
                                             <ToolBadge key={index} icon={tool.icon} name={tool.name} className={tool.name} />
@@ -68,7 +68,6 @@ const Projects = () => {
                                 <div className="LinkProject">
                                     <a title='RepositoryGitHub' target="-blank" href={project.Git}>{<GitIcon className="IconsCards" width={"30px"} height={"30px"} />}</a>
                                 </div>
-
                             </div>
                         </div>
                     </div>
