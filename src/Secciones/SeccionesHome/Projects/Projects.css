@@ -110,6 +110,15 @@
 
 }
 
+.TitleCard a {
+    text-decoration: underline;
+    color: var(--Blue);
+}
+
+.TitleCard a:hover h3{
+    color: var(--Blue-Hover);
+}
+
 .TitleCard h3 {
     color: var(--White);
     font-size: min(35px, 7vw);

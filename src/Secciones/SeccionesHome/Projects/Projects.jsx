@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Projects.css';
 import ToolBadge from './ToolBadge';
 
@@ -57,7 +58,7 @@ const Projects = () => {
                             </div>
                             <div className="FooterCard">
                                 <div className="TitleCard">
-                                    <h3>{project.title}</h3>
+                                    <Link href=""><h3>{project.title}</h3></Link>
                                     <ul className="ToolsWrapper">
                                         {project.tool && project.tool.map((tool, index) => (
                                             <ToolBadge key={index} icon={tool.icon} name={tool.name} className={tool.name} />
