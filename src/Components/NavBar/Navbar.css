@@ -34,6 +34,7 @@
     transition: .3s ease-out;
     font-size: 13px;
     font-weight: 800;
+    cursor: pointer;
 }
 
 .LinkNavHome:hover{

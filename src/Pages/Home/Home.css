@@ -1,5 +1,6 @@
 .fallback{
-    height: 50vh;
+    height: 100vh;
+    opacity: 0;
 }
 
 .lazyLoadSectionHome{

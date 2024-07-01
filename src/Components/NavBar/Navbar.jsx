@@ -98,11 +98,11 @@ const Navbar = () => {
           <h1>Kevin Julio Pineda</h1>
           <div className="navHome">
             <ul className="menuHome">
-              <li><Link className="LinkNavHome Start" to='/home#Start'><span className='linkText'>{t('Header.start')}</span></Link></li>
-              <li><Link className="LinkNavHome Projects" to="/home#Projects"><span className='linkText'>{t('Header.projects')}</span></Link></li>
-              <li><Link className="LinkNavHome About" to='/home#About'><span className='linkText'>{t('Header.about_me')}</span></Link></li>
-              <li><Link className="LinkNavHome Skills" to="/home#Skills"><span className='linkText'>{t('Header.skills')}</span></Link></li>
-              <li><Link className="LinkNavHome Contact" to="mailto: kevinjp821@gmail.com"><span className='linkText'>{t('Header.contact')}</span></Link></li>
+              <li><a className="LinkNavHome Start" href='#Start'><span className='linkText'>{t('Header.start')}</span></a></li>
+              <li><a className="LinkNavHome Projects" href="#Projects"><span className='linkText'>{t('Header.projects')}</span></a></li>
+              <li><a className="LinkNavHome About" href='#About'><span className='linkText'>{t('Header.about_me')}</span></a></li>
+              <li><a className="LinkNavHome Skills" href="#Skills"><span className='linkText'>{t('Header.skills')}</span></a></li>
+              <li><a className="LinkNavHome Contact" href="mailto: kevinjp821@gmail.com"><span className='linkText'>{t('Header.contact')}</span></a></li>
               <li>
                 <div className="dropdown">
                   <button title={t("Header.BtnThemMode")} className={`select ${dropdownOpen ? 'select-clicked' : ''}`} onClick={handleDropdownClick}>

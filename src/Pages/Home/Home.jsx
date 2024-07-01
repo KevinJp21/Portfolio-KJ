@@ -50,9 +50,9 @@ const Home = () => {
     return (
         <Layout>
             <Start />
-            <LazyLoadSection component={Projects} fallback={<div className='fallback'>Loading Projects...</div>} />
-            <LazyLoadSection component={About} fallback={<div className='fallback'>Loading About...</div>} />
-            <LazyLoadSection component={Skills} fallback={<div className='fallback'>Loading Skills...</div>} />
+            <LazyLoadSection component={Projects} fallback={<div className='fallback' id='Projects'>Loading Projects...</div>} />
+            <LazyLoadSection component={About} fallback={<div className='fallback' id='About'>Loading About...</div>} />
+            <LazyLoadSection component={Skills} fallback={<div className='fallback' id='Skills'>Loading Skills...</div>} />
         </Layout>
     );
 };
