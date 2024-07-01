@@ -87,7 +87,7 @@ const FloatNavbar = () => {
                     <div className="FloatnavHome">
                         <ul className="FloatmenuHome">
                             <li><a className="LinkFloatNavHome Start" href='#Start' aria-label="Start"><HomeIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
-                            <li><a className="LinkFloatNavHome Projects" href="#projects" aria-label="Projects"><ProjectIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
+                            <li><a className="LinkFloatNavHome Projects" href="#Projects" aria-label="Projects"><ProjectIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
                             <li><a className="LinkFloatNavHome About" href='#About' aria-label="About" ><AboutIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
                             <li><a className="LinkFloatNavHome Skills" href="#Skills" aria-label="Skills"><Tools className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
                             <li><a className="LinkFloatNavHome Contact" href="mailto: kevinjp821@gmail.com" aria-label="Contact"><ContactIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>

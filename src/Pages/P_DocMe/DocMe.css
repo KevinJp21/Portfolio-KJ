@@ -1,0 +1,98 @@
+.PageProject{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+article{
+    max-width: 800px;
+    width: 100%;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+.projectHeader{
+    margin-bottom: 40px;
+}
+
+.projectHeader .projectHeaderMeta{
+    color: var(--Grey-Dark);
+    font-size: min(40px, 9vw);
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 36px;
+}
+
+.projectHeader picture img{
+    width: 100%;
+    max-height: 450px;
+    border-radius: 20px;
+}
+
+.projectBody p{
+    color: var(--Grey);
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.projectBody h2{
+    color: var(--Grey-Dark);
+    font-size: 24px;
+    font-weight: bold;
+    margin: 48px 0 24px;
+}
+
+.projectBody ul{
+    list-style:disc;
+    padding-left: 50px;
+    padding-bottom: 16px;
+}
+
+.projectBody li{
+    color: var(--Grey);
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 20px; 
+}
+
+.projectBody li:last-child{
+    list-style: none;
+}
+
+.projectBody a{
+    color: var(--Blue);
+    place-self: center;
+    text-decoration: underline;
+    font-size: 14px;
+}
+.projectBody a:hover{
+    color: var(--Blue-Hover);
+}
+
+.projectBody .ToolBadge{
+    width: fit-content;
+    height: auto;
+}
+
+.projectBody .ToolBadge span{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 6px;
+}
+
+.projectBody .ListBadges{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+}
+
+.projectBody .ListBadges li{
+
+}
+@media screen and (max-width: 768px) {
+    article{
+        margin-top: 100px;
+    }
+}

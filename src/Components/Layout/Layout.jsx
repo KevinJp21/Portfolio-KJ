@@ -8,7 +8,7 @@ export default function Layout({ children }) {
     const [isMobile, setIsMobile] = useState(window.matchMedia('(max-width: 720px)').matches);
 
     useEffect(() => {
-        const mediaQuery = window.matchMedia('(max-width: 720px)');
+        const mediaQuery = window.matchMedia('(max-width: 768px)');
         const handleMediaChange = (event) => {
             setIsMobile(event.matches);
         };

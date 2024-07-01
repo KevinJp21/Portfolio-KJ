@@ -46,5 +46,27 @@
     },
     "Footer": {
       "author": "Hecho por KevinJp21"
+    },
+    "P_DocMe": {
+      "title": "DocMe: Plataforma Integrada para la Gestión de Citas Médicas",
+      "intro": "Colombia ha logrado avances significativos en la cobertura del sistema de salud, en el 2020 el 97,8% de la población estaba cubierto por el sistema de salud. Pero esto no se ha traducido en un acceso efectivo y oportuno a los servicios de salud. Por ejemplo, en 2019 el 26 % de las personas no recibió o solicitó atención médica debido a problemas como la oportunidad de la cita, la calidad del servicio, la ubicación geográfica del centro de atención o la cantidad de trámites.",
+      "subtitle1": "Problema",
+      "p1": "La problemática del agendamiento de citas médicas plantea desafíos significativos para pacientes y profesionales de la salud en todo el país. La falta de agendamientos adecuados se ha convertido en un obstáculo recurrente que afecta la eficiencia y la calidad del servicio médico.",
+      "p2": "Esta problemática se manifiesta a través de diversos factores interrelacionados, que van desde la falta de personalización en la atención médica hasta la inadecuación de fechas y la lejanía de los centros de atención.",
+      "p3": " Sin embargo, todos estos problemas convergen en un único punto crítico: la ausencia de un sistema efectivo de agendamiento de citas. La falta de agendamiento de citas adecuadas resulta en consecuencias negativas para los pacientes y los proveedores de atención médica. Los pacientes se ven enfrentados a la dificultad de acceder a una atención oportuna y adecuada debido a la saturación de las líneas de atención, la escasez de personal y los horarios limitados de atención.",
+      "p4": "“Agendar citas de manera practica y oportuna es una de las mayores dificultades para pacientes en todo el país, debido a la saturación de líneas de atención, falta de personal y horario de atención limitante […]” (Anónimo, 2023).",
+      "subtitle2": "Solución",
+      "p5": " El proyecto consiste en un sistema de gestión de citas médicas que se basará en una aplicación web para integrar capacidades de personalización, optimización de calendarios, manejo de urgencias y un chatbot de inteligencia artificial. Con este sistema se busca mejorar la experiencia de los pacientes al proporcionarles una herramienta como es el chatbot que proporcionará respuestas automatizadas a los usuarios sobre diferentes temas relacionados con servicios médicos. Esto incluye:",
+      "li1": "Saludo y bienvenida: Responder a los saludos del usuario y proporcionar una interacción amigable.",
+      "li2": "Información sobre citas médicas:  Proporcionar detalles sobre las próximas y últimas citas del usuario.",
+      "li3": "Respuestas generales: Responder preguntas frecuentes y proporcionar información básica sobre salud.",
+      "li4": "Orientación en caso de síntomas: Brindar recomendaciones sobre qué hacer si presentan ciertos síntomas, incluyendo si deben buscar atención inmediata.",
+      "li5": "Saber más sobre el ChatBot",
+      "subtitle3":"Responsabilidades",
+      "p6": "Diseñé e implementé un sistema de agendamiento de citas médicas, mejorando la accesibilidad y eficiencia en la programación de citas.",
+      "p7": "Empleado para desarrollar una interfaz de usuario dinámica y moderna. ReactJS facilitó la gestión eficiente del estado de la aplicación y la creación de componentes reutilizables, permitiendo la integración fluida de funcionalidades como el chatbot y la visualización de información.",
+      "p8": "Utilizado como framework de Node.js para construir el backend de la aplicación web. ExpressJS simplificó la creación de rutas, la gestión de solicitudes HTTP y la integración con bases de datos, siendo fundamental para la implementación de la lógica de negocio del sistema de gestión de citas médicas.",
+      "p9": "Sistema de gestión de bases de datos relacional utilizado para almacenar y gestionar eficientemente la información de los usuarios, citas médicas, y configuraciones del sistema. MySQL proporciona robustez, escalabilidad y seguridad para asegurar la integridad de los datos y el rendimiento del sistema.",
+      "p10": "Desarrollé un chatbot inteligente utilizando Flask como framework backend y técnicas avanzadas de Procesamiento de Lenguaje Natural (NLP) con NLTK. Diseñado para interactuar en español, el chatbot ofrece respuestas automáticas precisas basadas en la detección de intenciones en las consultas de los usuarios, mejorando significativamente la experiencia de interacción."
     }
 }

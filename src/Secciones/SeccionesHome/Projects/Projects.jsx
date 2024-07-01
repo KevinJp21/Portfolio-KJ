@@ -58,7 +58,7 @@ const Projects = () => {
                             </div>
                             <div className="FooterCard">
                                 <div className="TitleCard">
-                                    <Link to={project.title}><h3>{project.title}</h3></Link>
+                                    <Link to={`/Projects/${project.title}/`}><h3>{project.title}</h3></Link>
                                     <ul className="ToolsWrapper">
                                         {project.tool && project.tool.map((tool, index) => (
                                             <ToolBadge key={index} icon={tool.icon} name={tool.name} className={tool.name} />

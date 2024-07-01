@@ -1,7 +1,7 @@
 import React from 'react';
 import './ToolBadge.css'; 
 
-const ToolBadge = ({ icon, name, className }) => {
+const ToolBadge = ({ icon, name, className}) => {
   return (
     <li className={`ToolBadge ${className}`}>
       <span>

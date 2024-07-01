@@ -43,5 +43,27 @@
   },
   "Footer": {
     "author": "Build by KevinJp21"
+  },
+  "P_DocMe": {
+    "title": "DocMe: Integrated Platform for Medical Appointment Management",
+    "intro": "Colombia has made significant advances in health system coverage. In 2020, 97.8% of the population was covered by the health system. However, this has not translated into effective and timely access to health services. For instance, in 2019, 26% of people did not receive or seek medical attention due to issues such as appointment timing, service quality, geographical location of healthcare centers, or bureaucratic processes.",
+    "subtitle1": "Problem",
+    "p1": "The problem of scheduling medical appointments poses significant challenges for patients and healthcare professionals nationwide. Inadequate scheduling has become a recurring obstacle affecting medical service efficiency and quality.",
+    "p2": "This issue manifests through various interconnected factors, ranging from lack of personalized medical attention to inappropriate appointment dates and distant healthcare center locations.",
+    "p3": "However, all these problems converge at a single critical point: the absence of an effective appointment scheduling system. Inadequate scheduling leads to negative consequences for both patients and healthcare providers. Patients face difficulties accessing timely and appropriate care due to overwhelmed phone lines, staff shortages, and limited clinic hours.",
+    "p4": "Scheduling appointments in a practical and timely manner is one of the biggest challenges for patients nationwide, due to overwhelmed phone lines, staff shortages, and limited clinic hours [...] (Anonymous, 2023).",
+    "subtitle2": "Solution",
+    "p5": "The project entails a medical appointment management system based on a web application integrating customization capabilities, calendar optimization, emergency management, and an AI chatbot. This system aims to enhance patient experience by providing tools such as a chatbot for automated responses on various medical service topics. This includes:",
+    "li1": "Greeting and welcome: Responding to user greetings and providing friendly interaction.",
+    "li2": "Information on medical appointments: Providing details about upcoming and past appointments for the user.",
+    "li3": "General responses: Answering frequently asked questions and providing basic health information.",
+    "li4": "Symptom guidance: Offering recommendations on what to do if certain symptoms occur, including whether immediate medical attention is necessary.",
+    "li5": "Learn more about the ChatBot",
+    "subtitle3": "Responsibilities",
+    "p6": "Designed and implemented a medical appointment scheduling system, enhancing accessibility and efficiency in appointment scheduling.",
+    "p7": "Employed ReactJS to develop a dynamic and modern user interface. ReactJS facilitated efficient state management and creation of reusable components, enabling seamless integration of functionalities like the chatbot and information visualization.",
+    "p8": "Used Node.js framework with ExpressJS to build the web application backend. ExpressJS simplified route creation, HTTP request handling, and database integration, playing a crucial role in implementing the medical appointment management system's business logic.",
+    "p9": "Utilized a relational database management system to efficiently store and manage user information, medical appointments, and system configurations. MySQL provided robustness, scalability, and security to ensure data integrity and system performance.",
+    "p10": "Developed an intelligent chatbot using Flask as the backend framework and advanced Natural Language Processing (NLP) techniques with NLTK. Designed to interact in Spanish, the chatbot offers accurate automatic responses based on user query intent detection, significantly improving interaction experience."
   }
 }
