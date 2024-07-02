@@ -1,8 +1,25 @@
-# React + Vite
+# Portafolio de Kevin Julio Pineda
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es mi portafolio personal, desarrollado con React y Vite.
 
-Currently, two official plugins are available:
+## Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Biblioteca JavaScript para construir interfaces de usuario.
+- **Vite**: Herramienta de compilación rápida para aplicaciones web modernas.
+
+## Cómo Instalar y Ejecutar
+
+Para ejecutar este proyecto localmente, sigue estos pasos:
+
+1. **Clona el Repositorio:**
+```bash
+git clone https://github.com/KevinJp21/portafolio.git
+cd portafolio
+```
+2. **Instala las Dependencias:** 
+```bash
+npm install
+```
+3. **Inicia el Servidor de Desarrollo:**
+```bash
+npm run dev
