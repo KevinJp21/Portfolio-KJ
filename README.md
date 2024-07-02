@@ -1,25 +1,25 @@
-# Portafolio de Kevin Julio Pineda
+# Kevin Julio Pineda's Portfolio
 
-Este es mi portafolio personal, desarrollado con React y Vite.
+This is my personal portfolio, developed with React and Vite.
 
-## Tecnologías Utilizadas
+## Technologies Used
 
-- **React**: Biblioteca JavaScript para construir interfaces de usuario.
-- **Vite**: Herramienta de compilación rápida para aplicaciones web modernas.
+- **React**: JavaScript library for building user interfaces.
+- **Vite**: Fast compilation tool for modern web applications.
 
-## Cómo Instalar y Ejecutar
+## How to Install and Run
 
-Para ejecutar este proyecto localmente, sigue estos pasos:
+To run this project locally, follow these steps:
 
-1. **Clona el Repositorio:**
-```bash
-git clone https://github.com/KevinJp21/portafolio.git
-cd portafolio
-```
-2. **Instala las Dependencias:** 
-```bash
+1. **Clone the repository:**
+````bash
+git clone https://github.com/KevinJp21/Portfolio-KJ.git
+cd portfolio
+````
+2. **Install the Dependencies:** 
+````bash
 npm install
-```
-3. **Inicia el Servidor de Desarrollo:**
-```bash
+````
+3. **Start the Development Server:**
+````bash
 npm run dev
