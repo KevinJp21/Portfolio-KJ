@@ -53,7 +53,7 @@ const DocMe = () => {
 
   return (
     <HelmetProvider>
-      <Helmet>
+      <Helmet prioritizeSeoTags>
         <title>Portfolio | DocMe</title>
         <meta
           name="description"

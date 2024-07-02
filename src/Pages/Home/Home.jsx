@@ -50,7 +50,7 @@ const LazyLoadSection = ({ component: Component, fallback }) => {
 const Home = () => {
     return (
         <HelmetProvider>
-            <Helmet>
+            <Helmet prioritizeSeoTags>
                 <title>Portfolio | Kevin Julio</title>
 
                 <meta
