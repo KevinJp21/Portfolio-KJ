@@ -92,9 +92,9 @@ const FloatNavbar = () => {
                             <li><a className="LinkFloatNavHome Skills" href="/#Skills" aria-label="Skills"><Tools className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
                             <li><a className="LinkFloatNavHome Contact" href="mailto: kevinjp821@gmail.com" aria-label="Contact"><ContactIcon className="home-icon" width={"30px"} heigh={"30px"} /></a></li>
                             <li>
-                                <a title={t("Header.BtnThemMode")} className={`select ${darkMode}`} onClick={() => handleOptionClick(darkMode === 'light' ? 'dark' : darkMode === 'dark' ? 'system' : 'light')}>
+                                <button title={t("Header.BtnThemMode")} className={`select ${darkMode}`} onClick={() => handleOptionClick(darkMode === 'light' ? 'dark' : darkMode === 'dark' ? 'system' : 'light')}>
                                     {renderIcon()}
-                                </a>
+                                </button>
                             </li>
                             <li>
                                 <div className="dropdown">
