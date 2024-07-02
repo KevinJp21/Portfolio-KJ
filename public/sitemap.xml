@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- URL de la página principal -->
+    <url>
+        <loc>https://portfolio-kj.vercel.app/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- URL de la página de proyectos DocMe -->
+    <url>
+        <loc>https://portfolio-kj.vercel.app/Projects/DocMe</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- URL de la página de proyectos Chatbot -->
+    <url>
+        <loc>https://portfolio-kj.vercel.app/Projects/Chatbot</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+</urlset>
