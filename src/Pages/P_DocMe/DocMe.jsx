@@ -26,7 +26,7 @@ const DocMe = () => {
       <li>{t('P_DocMe.li2')}</li>
       <li>{t('P_DocMe.li3')}</li>
       <li>{t('P_DocMe.li4')}</li>
-      <li><a href="#">{t('P_DocMe.li5')}</a></li>
+      <li><a href="/Projects/Chatbot">{t('P_DocMe.li5')}</a></li>
     </ul>,
     <h2>{t('P_DocMe.subtitle3')}</h2>,
     <p>{t('P_DocMe.p6')}</p>,
