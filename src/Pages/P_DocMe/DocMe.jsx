@@ -55,7 +55,6 @@ const DocMe = () => {
     <HelmetProvider>
       <Helmet>
         <title>Portfolio | DocMe</title>
-
         <meta
           name="description"
           content="Descubre cómo DocMe revoluciona la gestión de citas médicas en Colombia. Este innovador sistema utiliza tecnología avanzada para personalizar agendas, optimizar servicios y ofrecer respuestas automáticas mediante un chatbot de inteligencia artificial. Mejora la accesibilidad y eficiencia en el agendamiento de citas médicas, superando obstáculos como la saturación de líneas y la falta de personal."
@@ -73,7 +72,7 @@ const DocMe = () => {
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="Captura de pantalla de la página de articulo del proyecto DocMe" />
         <meta property="og:url" content="https://portfolio-kj.vercel.app/Projects/DocMe" />
-        <meta property="og:updated_time" content="2024-07-02T12:00:00Z" />
+        <meta property="og:updated_time" content="2024-07-03T09:30:00Z" />
       </Helmet>
       <Layout>
         <main className="PageProject">
