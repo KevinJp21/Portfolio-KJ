@@ -70,7 +70,7 @@ const Home = () => {
                 <meta property="og:image:height" content="630" />
                 <meta property="og:image:alt" content="Captura de pantalla de la página de inicio del portfolio de Kevin Julio" />
                 <meta property="og:url" content="https://portfolio-kj.vercel.app" />
-                <meta property="og:updated_time" content="2024-07-26T12:00:00Z" />
+                <meta property="og:updated_time" content="2024-07-02T12:00:00Z" />
             </Helmet>
             <Layout>
                 <Start />

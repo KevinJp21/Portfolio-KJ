@@ -72,8 +72,8 @@ const DocMe = () => {
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="Captura de pantalla de la página de articulo del proyecto DocMe" />
-        <meta property="og:url" content="https://portfolio-kj.vercel.app" />
-        <meta property="og:updated_time" content="2024-07-26T12:00:00Z" />
+        <meta property="og:url" content="https://portfolio-kj.vercel.app/Projects/DocMe" />
+        <meta property="og:updated_time" content="2024-07-02T12:00:00Z" />
       </Helmet>
       <Layout>
         <main className="PageProject">
