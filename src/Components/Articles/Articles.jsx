@@ -12,7 +12,7 @@ const Article = ({ title,github, demo, imgSrc, imgAlt, content }) => {
         <div className="projectHeaderMeta">
             <h1 itemProp="name">{title}</h1>
             <div className="LinksProject">
-            <a target="-blank" href={github}><span>Repositorio GitHub</span><GitHubIcon width="30px" height="30px" /></a>
+            <a target="-blank" href={github}><span>GitHub</span><GitHubIcon width="30px" height="30px" /></a>
             <a target="-blank" href={demo}><span>Demo</span><LinkIcon width="25px" height="25px" /></a>
             </div>
         </div>
