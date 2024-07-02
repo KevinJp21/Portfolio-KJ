@@ -42,6 +42,10 @@ const Projects = () => {
         { id: 5, title: t('Projects.p5'), description: '5', img: RestauranteSCocina, tool: [{ name: "ReactJS", icon: <ReactJs /> }, { name: 'PHP', icon: <PHP /> }, { name: "MySQL", icon: <MySQL /> }], Git: 'https://github.com/KevinJp21/RestauranteSCocina-ReactJS', demo: 'https://restaurantescocina.netlify.app/' }
     ];
 
+    const handleLinkClick = () => {
+        window.scrollTo(0, 0);
+      };
+
     return (
         <section className="ContainerProjects" id='Projects'>
             <div className="HeaderProjects">
@@ -58,7 +62,7 @@ const Projects = () => {
                             </div>
                             <div className="FooterCard">
                                 <div className="TitleCard">
-                                    <Link to={`/Projects/${project.title}/`}><h3>{project.title}</h3></Link>
+                                    <Link to={`/Projects/${project.title}/`} onClick={handleLinkClick}><h3>{project.title}</h3></Link>
                                     <ul className="ToolsWrapper">
                                         {project.tool && project.tool.map((tool, index) => (
                                             <ToolBadge key={index} icon={tool.icon} name={tool.name} className={tool.name} />
