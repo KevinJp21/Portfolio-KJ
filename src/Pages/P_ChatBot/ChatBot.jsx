@@ -2,11 +2,7 @@ import React from 'react'
 import Layout from '../../Components/Layout/Layout'
 import Article from '../../Components/Articles/Articles'
 import Chatbot from '../../assets/Images/docme-chatbot.webp'
-import ToolBadge from '../../Secciones/SeccionesHome/Projects/ToolBadge'
-import { Tools } from '../../Secciones/SeccionesHome/Skills/Tools'
-import Python from '../../assets/Logos/Python.webp'
-import Flask from '../../assets/Logos/Flaks.webp'
-import NLTK from '../../assets/Logos/NLTK.webp'
+
 import { useTranslation } from 'react-i18next'
 import './ChatBot.css'
 const ChatBot = () => {
