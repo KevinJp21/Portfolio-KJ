@@ -64,6 +64,8 @@
     "p7": "Employed ReactJS to develop a dynamic and modern user interface. ReactJS facilitated efficient state management and creation of reusable components, enabling seamless integration of functionalities like the chatbot and information visualization.",
     "p8": "Used Node.js framework with ExpressJS to build the web application backend. ExpressJS simplified route creation, HTTP request handling, and database integration, playing a crucial role in implementing the medical appointment management system's business logic.",
     "p9": "Utilized a relational database management system to efficiently store and manage user information, medical appointments, and system configurations. MySQL provided robustness, scalability, and security to ensure data integrity and system performance.",
-    "p10": "Developed an intelligent chatbot using Flask as the backend framework and advanced Natural Language Processing (NLP) techniques with NLTK. Designed to interact in Spanish, the chatbot offers accurate automatic responses based on user query intent detection, significantly improving interaction experience."
-  }
+    "p10": "Developed an intelligent chatbot using Flask as the backend framework and advanced Natural Language Processing (NLP) techniques with NLTK. Designed to interact in Spanish, the chatbot offers accurate automatic responses based on user query intent detection, significantly improving interaction experience.",
+    "subtitle4": "conclusions",
+    "p11": "DocMe represents a comprehensive solution to improve the interaction between patients and medical services, effectively addressing the challenges associated with appointment scheduling. This project highlights the ability to use advanced technologies such as ReactJS, ExpressJS, MySQL and a chatbot based on Flask and NLTK to develop robust, user-driven systems in the digital health sector. It also underlines my commitment to technological innovation and continuous improvement in the quality of healthcare services."
+}
 }

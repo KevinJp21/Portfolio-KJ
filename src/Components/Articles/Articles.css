@@ -58,9 +58,9 @@ article{
     transform: scale(1.3);
 }
 
-.projectHeader picture img{
+.imgProject{
     width: 100%;
-    max-height: 450px;
+    min-height: 450px;
     border-radius: 20px;
 }
 
@@ -72,7 +72,7 @@ article{
 
 .projectBody picture img{
     width: 100%;
-    max-height: 450px;
+    min-height: 450px;
     border-radius: 20px;
 }
 
@@ -91,6 +91,13 @@ article{
     margin: 48px 0 24px;
 }
 
+.projectBody h3{
+    color: var(--Grey-Dark);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
 .projectBody ul{
     list-style:disc;
     padding-left: 50px;
@@ -102,10 +109,6 @@ article{
     font-size: 16px;
     font-weight: normal;
     margin-bottom: 20px; 
-}
-
-.projectBody li:last-child{
-    list-style: none;
 }
 
 .projectBody a{
@@ -136,9 +139,6 @@ article{
     padding: 0;
 }
 
-.projectBody .ListBadges li{
-
-}
 @media screen and (max-width: 768px) {
     article{
         margin-top: 100px;

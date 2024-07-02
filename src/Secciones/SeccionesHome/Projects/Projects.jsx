@@ -35,10 +35,10 @@ const Projects = () => {
     const { t } = useTranslation();
 
     const projects = [
-        { id: 1, title: t('Projects.p1'), description: '1', img: DocMe, tool: [{ name: "ReactJS", icon: <ReactJs /> }, { name: "ExpressJS" }, { name: "MySQL", icon: <MySQL /> }], Git: 'https://github.com/KevinJp21/DocMe_ReactJS', demo: 'https://docme-two.vercel.app/' },
+        { id: 1, title: t('Projects.p1'), description: '1', img: DocMe, tool: [{ name: "ReactJS", icon: <ReactJs /> }, { name: "ExpressJS" }, { name: "MySQL", icon: <MySQL /> }], Git: 'https://github.com/KevinJp21/DocMe_ReactJS', demo: 'https://docme-two.vercel.app/', article: "/Projects/DocMe"},
         { id: 2, title: t('Projects.p2'), description: '2', img: ApiResidencias, tool: [{ name: 'PHP', icon: <PHP /> }], Git: 'https://github.com/KevinJp21/ApiResidencia', demo: '' },
         { id: 3, title: t('Projects.p3'), description: '3', img: ApiOrdenes, tool: [{ name: "JavaScript", icon: <JavaScript /> }, { name: "ExpressJS" }], Git: 'https://github.com/KevinJp21/API_Gestion_Orden', demo: '' },
-        { id: 4, title: t('Projects.p4'), description: '4', img: DocMeChatbot, tool: [{ name: 'Python', icon: <Python /> }, { name: 'Flask', icon: <Flask /> }, { name: 'TensorFlow', icon: <TensorFlow /> }, { name: 'SQLAlchemy', icon: <SQLA /> }, { name: "MySQL", icon: <MySQL /> }], Git: 'https://github.com/KevinJp21/ChatBot', demo: '' },
+        { id: 4, title: t('Projects.p4'), description: '4', img: DocMeChatbot, tool: [{ name: 'Python', icon: <Python /> }, { name: 'Flask', icon: <Flask /> }, { name: 'TensorFlow', icon: <TensorFlow /> }, { name: 'SQLAlchemy', icon: <SQLA /> }, { name: "MySQL", icon: <MySQL /> }], Git: 'https://github.com/KevinJp21/ChatBot', demo: '' , article: "/Projects/Chatbot"},
         { id: 5, title: t('Projects.p5'), description: '5', img: RestauranteSCocina, tool: [{ name: "ReactJS", icon: <ReactJs /> }, { name: 'PHP', icon: <PHP /> }, { name: "MySQL", icon: <MySQL /> }], Git: 'https://github.com/KevinJp21/RestauranteSCocina-ReactJS', demo: 'https://restaurantescocina.netlify.app/' }
     ];
 
@@ -62,7 +62,7 @@ const Projects = () => {
                             </div>
                             <div className="FooterCard">
                                 <div className="TitleCard">
-                                    <Link to={`/Projects/${project.title}/`} onClick={handleLinkClick}><h3>{project.title}</h3></Link>
+                                    <Link to={`${project.article}`} onClick={handleLinkClick}><h3>{project.title}</h3></Link>
                                     <ul className="ToolsWrapper">
                                         {project.tool && project.tool.map((tool, index) => (
                                             <ToolBadge key={index} icon={tool.icon} name={tool.name} className={tool.name} />

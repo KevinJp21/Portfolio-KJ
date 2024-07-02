@@ -1,20 +1,27 @@
-import React from 'react'
+import React, { lazy, Suspense } from 'react'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Home from './Pages/Home/Home';
-import DocMe from './Pages/P_DocMe/DocMe';
+
+const Home = lazy(() => import('./Pages/Home/Home'));
+const DocMe = lazy(() => import('./Pages/P_DocMe/DocMe'));
+const ChatBot = lazy(() => import('./Pages/P_ChatBot/ChatBot'));
+
 import { useTranslation } from 'react-i18next';
+
 
 function App() {
   const { t } = useTranslation();
   return (
-      <Router>
+    <Router>
+      <Suspense fallback={<div className='fallback'>Loading...</div>}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path={"/Projects/DocMe"} element={<DocMe />} />
+          <Route path={"/Projects/Chatbot"} element={<ChatBot />} />
           <Route path="*" element={<Navigate to={"/"} />} />
         </Routes>
-      </Router>
+      </Suspense>
+    </Router>
 
   )
 }

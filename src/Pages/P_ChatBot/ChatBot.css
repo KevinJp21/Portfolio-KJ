@@ -1,0 +1,27 @@
+.P_Chatbot picture{
+    display: flex;
+    justify-content: center;
+   
+}
+.P_Chatbot .imgProject{
+    width: 400px ;
+
+}
+
+.ProjectTools{
+    display: flex;
+    align-items: center;
+   
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.ProjectTools p{
+    margin: 0;
+}
+
+.ProjectTools .cardsSkills{
+    width: 150px;
+    height: 60px;
+   border-radius: 10px;
+}
