@@ -23,3 +23,6 @@ npm install
 3. **Start the Development Server:**
 ````bash
 npm run dev
+````
+## Author
+- [@KevinJp21](https://github.com/KevinJp21)
