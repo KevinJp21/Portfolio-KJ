@@ -22,4 +22,11 @@
         <priority>0.8</priority>
     </url>
 
+    <!-- URL de la página de proyectos RestauranteSCocina -->
+    <url>
+        <loc>https://portfolio-kj.vercel.app/Projects/RestauranteSCocina</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
 </urlset>
