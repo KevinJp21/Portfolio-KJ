@@ -1,5 +1,4 @@
 import React, { useEffect, useState, useRef, Suspense, lazy } from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
 import './Home.css';
 import Layout from '../../Components/Layout/Layout';
 import Start from '../../Secciones/SeccionesHome/Start/Start';

@@ -2,7 +2,6 @@ import React from 'react'
 import Layout from '../../Components/Layout/Layout'
 import Article from '../../Components/Articles/Articles'
 import Chatbot from '../../assets/Images/docme-chatbot.webp'
-
 import { useTranslation } from 'react-i18next'
 import './ChatBot.css'
 const ChatBot = () => {
@@ -62,7 +61,7 @@ const ChatBot = () => {
                     github='https://github.com/KevinJp21/ChatBot'
                     demo=''
                     imgSrc={Chatbot}
-                    imgAlt="Imagen del proyecto Chatbot"
+                    imgAlt="Imagen del proyecto asistente docme chatbot"
                     content={content}
                 />
             </main>

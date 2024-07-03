@@ -1,5 +1,4 @@
 import React from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Layout from '../../Components/Layout/Layout';
 import './DocMe.css';
 import DocMeImg from '../../assets/Images/docme.webp';
@@ -52,28 +51,6 @@ const DocMe = () => {
   ];
 
   return (
-    <HelmetProvider>
-      <Helmet prioritizeSeoTags>
-        <title>Portfolio | DocMe</title>
-        <meta
-          name="description"
-          content="Descubre cómo DocMe revoluciona la gestión de citas médicas en Colombia. Este innovador sistema utiliza tecnología avanzada para personalizar agendas, optimizar servicios y ofrecer respuestas automáticas mediante un chatbot de inteligencia artificial. Mejora la accesibilidad y eficiencia en el agendamiento de citas médicas, superando obstáculos como la saturación de líneas y la falta de personal."
-        />
-        <meta
-          name="keywords"
-          content="Kevin Julio Pineda, portfolio, KevinJp21, ingeniero de sistemas, desarrollo frontend, proyectos tecnológicos, metodologías ágiles, arquitectura de software, inteligencia artificial, Gestión de citas médicas, Plataforma de salud digital, Chatbot médico, Inteligencia artificial en salud, Optimización de agendas médicas, Tecnología para atención médica, Innovación en servicios de salud, Accesibilidad en salud digital, Eficiencia en citas médicas, Soluciones tecnológicas para salud"
-        />
-        <meta name="author" content="Kevin Julio Pineda" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Portfolio | DocMe" />
-        <meta property="og:description" content="Descubre cómo DocMe revoluciona la gestión de citas médicas en Colombia. Este innovador sistema utiliza tecnología avanzada para personalizar agendas, optimizar servicios y ofrecer respuestas automáticas mediante un chatbot de inteligencia artificial. Mejora la accesibilidad y eficiencia en el agendamiento de citas médicas, superando obstáculos como la saturación de líneas y la falta de personal." />
-        <meta property="og:image" content="https://portfolio-kj.vercel.app/ArticleDocMe.png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content="Captura de pantalla de la página de articulo del proyecto DocMe" />
-        <meta property="og:url" content="https://portfolio-kj.vercel.app/Projects/DocMe" />
-        <meta property="og:updated_time" content="2024-07-02T00:00:00Z" />
-      </Helmet>
       <Layout>
         <main className="PageProject">
           <Article
@@ -86,8 +63,6 @@ const DocMe = () => {
           />
         </main>
       </Layout>
-    </HelmetProvider>
-
   );
 };
 
