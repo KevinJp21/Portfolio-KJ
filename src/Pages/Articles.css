@@ -1,3 +1,15 @@
+/*DocMe*/
+.P_DocMe .ProjectSol li:last-child{
+    list-style: none;
+}
+
+/*RestauranteSCocina*/
+
+.P_RestauranteSCocina .ProjectSol li:last-child{
+    list-style: none;
+}
+
+/*ChatBot*/
 .P_Chatbot picture{
     display: flex;
     justify-content: center;
@@ -8,19 +20,18 @@
 
 }
 
-.ProjectTools{
+.P_Chatbot .ProjectTools{
     display: flex;
     align-items: center;
-   
     gap: 10px;
     margin-bottom: 10px;
 }
 
-.ProjectTools p{
+.P_Chatbot .ProjectTools p{
     margin: 0;
 }
 
-.ProjectTools .cardsSkills{
+.P_Chatbot .ProjectTools .cardsSkills{
     width: 150px;
     height: 60px;
    border-radius: 10px;

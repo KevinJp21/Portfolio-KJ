@@ -39,8 +39,8 @@
   },
   "Skills": {
     "title": "Skills",
-    "SubTitle1": "LLenguajes y Herramientas",
-    "SubTitle2": "Inteligencia Artificial y Ciencia de Datos",
+    "SubTitle1": "Lenguajes y Herramientas",
+    "SubTitle2": "Inteligencia Artificial",
     "SubTitle3": "Otros"
   },
   "Footer": {
@@ -106,5 +106,22 @@
     "p4": "La integración del chatbot en DocMe ha demostrado mejorar significativamente la accesibilidad y eficiencia en la gestión de consultas médicas. Los usuarios pueden recibir respuestas rápidas y precisas, reduciendo la carga administrativa y mejorando la satisfacción general del paciente.",
     "subtitle9": "Conclusiones",
     "p5": "El chatbot en DocMe representa un avance en la digitalización de los servicios de salud, ofreciendo una solución innovadora para mejorar la interacción paciente-servicio médico. Este proyecto subraya mi habilidad para aplicar tecnologías avanzadas en la resolución de problemas complejos, preparándome para enfrentar nuevos desafíos y contribuir al campo de la salud digital con soluciones eficaces y orientadas al usuario."
+  },
+  "P_RestS": {
+      "title": "RestauranteSCocina",
+      "intro": "RestauranteSCocina emerge como un oasis culinario en el corazón de Colombia, fusionando tradición y vanguardia para ofrecer una experiencia gastronómica única. Este proyecto se desarrolló con el objetivo de destacar la rica diversidad de la cocina colombiana a través de platos auténticos y sabores que celebran la cultura local.",
+      "subtitle1": "Características Destacadas",
+      "li1": "<strong>Diversidad de Sabores Colombianos:</strong> Desde las montañas de los Andes hasta las costas del Caribe, \"RestauranteSCocina\" invita a explorar la diversidad culinaria de Colombia a través de platos auténticos que capturan las influencias regionales y culturales del país.",
+      "li2": "<strong>Historia y Tradición:</strong> Cada región de Colombia tiene una identidad culinaria única, influenciada por su geografía, clima y tradiciones. Desde los platos andinos con raíces indígenas hasta la cocina costeña con sabores marítimos, la cocina colombiana refleja una fusión de culturas que se traduce en una amplia variedad de ingredientes y técnicas culinarias.",
+      "li3": "<strong>Menú Virtual:</strong> \"RestauranteSCocina\" presenta un menú detallado que incluye platos populares como la Sopa de Mondongo, el Corrientazo de Pollo, y el Mote de Queso, entre otros. Cada plato está acompañado de descripciones que resaltan sus sabores y características únicas.",
+      "li4": "<strong>Contacto y Ubicación:</strong> Los usuarios pueden contactar al restaurante a través de formularios integrados en el sitio web, facilitando reservas y consultas sobre los servicios ofrecidos.",
+      "subtitle2": "Tecnologías Utilizadas",
+      "li5": "<strong>HTML5 y CSS3:</strong> Para el diseño visual y la estructura del sitio web.",
+      "li6": "<strong>JavaScript:</strong> Para la funcionalidad interactiva y dinámica del sitio.",
+      "li7": "<strong>React:</strong> Utilizado para desarrollar una interfaz de usuario moderna y optimizada.",
+      "li8": "<strong>API Food PHP:</strong> Para gestionar el menú y los detalles de los platos, desarrollé una API utilizando PHP. Esta API permite almacenar y consultar información detallada sobre las comidas ofrecidas en \"RestauranteSCocina\", asegurando una gestión eficiente y dinámica de los datos gastronómicos.",
+      "li9": "Saber más sobre esta API",
+      "subtitle3": "Resultados y Objetivos",
+      "p1": "\"RestauranteSCocina\" demuestra mi habilidad para crear experiencias digitales atractivas que capturan la esencia y la autenticidad de una experiencia gastronómica colombiana. Este proyecto destaca mi capacidad para integrar diseño, usabilidad y funcionalidad en plataformas web, preparándome para abordar proyectos desafiantes en el campo del desarrollo web con creatividad y eficacia."
   }
 }

@@ -38,7 +38,7 @@
   "Skills": {
     "title": "Skills",
     "SubTitle1": "Languages and Tools",
-    "SubTitle2": "Artificial Intelligence and Data Science",
+    "SubTitle2": "Artificial Intelligence",
     "SubTitle3": "Others"
   },
   "Footer": {
@@ -104,5 +104,22 @@
     "p4": "The integration of the chatbot in DocMe has significantly improved accessibility and efficiency in managing medical queries. Users can receive quick and accurate responses, reducing administrative burden and improving overall patient satisfaction.",
     "subtitle9": "Conclusions",
     "p5": "The chatbot in DocMe represents a significant advancement in the digitization of healthcare services, offering an innovative solution to enhance patient-service interaction. This project highlights my ability to apply advanced technologies to solve complex problems, preparing me to face new challenges and contribute to the field of digital health with effective, user-oriented solutions."
-  }
+  },
+    "P_RestS": {
+      "title": "RestauranteSCocina",
+      "intro": "RestauranteSCocina emerges as a culinary oasis in the heart of Colombia, blending tradition and innovation to offer a unique gastronomic experience. This project was developed with the aim of highlighting the rich diversity of Colombian cuisine through authentic dishes and flavors that celebrate local culture.",
+      "subtitle1": "Key Features",
+      "li1": "<strong>Diversity of Colombian Flavors:</strong> From the Andean mountains to the Caribbean coasts, \"RestauranteSCocina\" invites you to explore Colombia's culinary diversity through authentic dishes that capture the regional and cultural influences of the country.",
+      "li2": "<strong>History and Tradition:</strong> Each region of Colombia has a unique culinary identity influenced by its geography, climate, and traditions. From Andean dishes with indigenous roots to coastal cuisine with maritime flavors, Colombian cuisine reflects a fusion of cultures that translates into a wide variety of ingredients and culinary techniques.",
+      "li3": "<strong>Virtual Menu:</strong> \"RestauranteSCocina\" presents a detailed menu that includes popular dishes such as Sopa de Mondongo, Corrientazo de Pollo, and Mote de Queso, among others. Each dish is accompanied by descriptions that highlight its unique flavors and characteristics.",
+      "li4": "<strong>Contact and Location:</strong> Users can contact the restaurant through integrated forms on the website, facilitating reservations and inquiries about the services offered.",
+      "subtitle2": "Technologies Used",
+      "li5": "<strong>HTML5 and CSS3:</strong> For visual design and website structure.",
+      "li6": "<strong>JavaScript:</strong> For interactive and dynamic site functionality.",
+      "li7": "<strong>React:</strong> Used to develop a modern and optimized user interface.",
+      "li8": "<strong>PHP Food API:</strong> To manage the menu and dish details, I developed an API using PHP. This API allows for efficient and dynamic management of gastronomic data, storing and retrieving detailed information about the meals offered at \"RestauranteSCocina\".",
+      "li9": "Learn more about this API",
+      "subtitle3": "Results and Objectives",
+      "p1": "\"RestauranteSCocina\" showcases my ability to create engaging digital experiences that capture the essence and authenticity of Colombian gastronomy. This project highlights my skills in integrating design, usability, and functionality in web platforms, preparing me to tackle challenging projects in the field of web development with creativity and efficiency."
+    }
 }

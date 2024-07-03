@@ -60,9 +60,8 @@ article{
 
 .imgProject{
     width: 100%;
-    min-height: 450px;
+    min-height: fit-content;
     border-radius: 20px;
-    object-fit: cover;
 }
 
 .projectBody picture{
@@ -80,7 +79,7 @@ article{
 
 
 .projectBody p{
-    color: var(--Grey);
+    color: var(--Grey-Dark);
     font-size: 16px;
     font-weight: normal;
     margin-bottom: 30px;
@@ -107,7 +106,7 @@ article{
 }
 
 .projectBody li{
-    color: var(--Grey);
+    color: var(--Grey-Dark);
     font-size: 16px;
     font-weight: normal;
     margin-bottom: 20px; 

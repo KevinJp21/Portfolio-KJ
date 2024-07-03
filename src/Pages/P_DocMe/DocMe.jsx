@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../../Components/Layout/Layout';
-import './DocMe.css';
+import '../Articles.css'
 import DocMeImg from '../../assets/Images/docme.webp';
 import { ReactComponent as ReactJs } from '../../assets/Icons/ReactJs.svg';
 import { ReactComponent as MySQL } from '../../assets/Icons/MySQL.svg';
@@ -8,6 +8,7 @@ import { useTranslation } from 'react-i18next';
 import Article from '../../Components/Articles/Articles';
 import ToolBadge from '../../Secciones/SeccionesHome/Projects/ToolBadge';
 import Image from '../../Components/Image/Image';
+
 
 const DocMe = () => {
   const { t } = useTranslation();
@@ -52,7 +53,7 @@ const DocMe = () => {
 
   return (
       <Layout>
-        <main className="PageProject">
+        <main className="PageProject P_DocMe">
           <Article
             title={t('P_DocMe.title')}
             github='https://github.com/KevinJp21/DocMe_ReactJS'

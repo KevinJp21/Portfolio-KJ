@@ -37,7 +37,7 @@
 }
 
 .DescriptionAbout p{
-    color: var(--Grey);
+    color: var(--Grey-Dark);
     font-size: min(20px, 6vw);
     font-weight: 300;
     text-wrap: pretty;

@@ -157,6 +157,12 @@
     top: 3rem;
 }
 
+@media screen and (max-width: 1157px){
+    .NavBar.scrolled{
+        width: 60vw;
+    }
+}
+
 @media screen and (max-width: 1033px){
         .NavBar.scrolled{
             width: 80vw;

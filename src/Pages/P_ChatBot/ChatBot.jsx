@@ -3,7 +3,7 @@ import Layout from '../../Components/Layout/Layout'
 import Article from '../../Components/Articles/Articles'
 import Chatbot from '../../assets/Images/docme-chatbot.webp'
 import { useTranslation } from 'react-i18next'
-import './ChatBot.css'
+import '../Articles.css'
 const ChatBot = () => {
     const { t } = useTranslation();
     const content = [
