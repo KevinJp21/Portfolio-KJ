@@ -33,7 +33,7 @@ const APIResidences = () => {
           <main className="PageProject P_APIResidences">
                 <Article
                     title={t('P_APIResi.title')}
-                    github='https://github.com/KevinJp21/ChatBot'
+                    github='https://github.com/KevinJp21/ApiResidencia'
                     demo=''
                     imgSrc={APIRes}
                     imgAlt="Imagen del proyecto API residencias"
