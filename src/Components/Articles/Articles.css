@@ -59,7 +59,7 @@ article{
 
 .imgProject{
     width: 100%;
-    min-height: fit-content;
+    height: max-content;
     border-radius: 20px;
 }
 
@@ -71,7 +71,7 @@ article{
 
 .projectBody picture img{
     width: 100%;
-    height: min-content;
+    min-height: 450px;
     border-radius: 20px;
     object-fit: contain;
 }
