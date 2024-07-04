@@ -49,6 +49,10 @@
         width: 300px ;
 }
 
+.P_APIResidences .LinksProject a:last-child{
+    display: none !important;
+}
+
 /*API Ordenes*/
 
 .P_APIOrders picture{
@@ -59,4 +63,8 @@
 
 .P_APIOrders .imgProject{
         width: 300px ;
+}
+
+.P_APIOrders .LinksProject a:last-child{
+    display: none !important;
 }

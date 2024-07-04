@@ -21,7 +21,7 @@ article{
 
 .projectHeader .projectHeaderMeta h1{
     color: var(--Grey-Dark);
-    font-size: min(40px, 9vw);
+    font-size: min(40px, 8vw);
     font-weight: 600;
     line-height: 1.1;
 }
@@ -41,13 +41,12 @@ article{
     display: flex;
     align-items: center;
     gap: 10px;
-    width: fit-content;
+    width: 90px;
 }
 
 .projectHeader .projectHeaderMeta a svg{
     fill: var(--Grey);
     transition: transform .3s ease;
-
 }
 
 .projectHeader .projectHeaderMeta a:hover{
