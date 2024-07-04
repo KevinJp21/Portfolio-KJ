@@ -36,3 +36,15 @@
     height: 60px;
    border-radius: 10px;
 }
+
+/*API residencias*/
+
+.P_APIResidences picture{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.P_APIResidences .imgProject{
+        width: 400px ;
+}
