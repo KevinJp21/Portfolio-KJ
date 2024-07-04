@@ -45,7 +45,7 @@ article{
 }
 
 .projectHeader .projectHeaderMeta a svg{
-    fill: var(--Grey);
+    fill: var(--Grey-Dark);
     transition: transform .3s ease;
 }
 
