@@ -114,6 +114,7 @@ article{
     color: var(--Blue);
     place-self: center;
     text-decoration: underline;
+    font-weight: bold;
     font-size: 14px;
 }
 .projectBody a:hover{
