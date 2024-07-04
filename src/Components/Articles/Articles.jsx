@@ -17,7 +17,7 @@ const Article = ({ title,github, demo, imgSrc, imgAlt, content }) => {
             </div>
         </div>
         <picture>
-          <img className='imgProject' decoding="async" itemProp="image" src={imgSrc} alt={imgAlt} width="800px" height="450px" />
+          <img className='imgProject' itemProp="image" src={imgSrc} alt={imgAlt} width="800px" height="450px" loading="eager"/>
         </picture>
       </header>
 
