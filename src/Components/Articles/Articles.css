@@ -21,7 +21,7 @@ article{
 
 .projectHeader .projectHeaderMeta h1{
     color: var(--Grey-Dark);
-    font-size: min(40px, 8vw);
+    font-size: min(40px, 7vw);
     font-weight: 600;
     line-height: 1.1;
 }
@@ -59,7 +59,6 @@ article{
 
 .imgProject{
     width: 100%;
-    height: max-content;
     border-radius: 20px;
 }
 
