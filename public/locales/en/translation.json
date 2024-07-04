@@ -138,5 +138,25 @@
     "subtitle3": "My Skills and Experience",
     "p2": "The development of ResidenciasAPI has allowed me to demonstrate my skills in backend development, database management, and API design. My proficiency in PHP and MySQL ensured the creation of a robust and scalable API capable of handling complex residential data management tasks. Additionally, my adherence to RESTful API principles ensures that the API is maintainable and easily integrable with other systems.",
     "p3": "This project highlights my ability to tackle challenging development tasks and deliver efficient, user-oriented solutions. I am well-prepared to take on new projects and contribute to the advancement of technology in various domains."
+  },
+  "P_APIOrders": {
+    "title": "Order Management API: Optimizing Complex Data Operations",
+    "intro": "The Order Management API is a simple yet effective tool designed to facilitate the retrieval of data related to orders, customers, employees, and order details. This API is ideal for educational purposes and practical exercises, providing endpoints to query and retrieve data from a structured database. Leveraging Node.js and Express for request handling and MySQL for database interactions, this API offers a straightforward approach to accessing essential business data.",
+    "subtitle1": "Data Managed by the Order Management API",
+    "p1": "The Order Management API handles various data entities, providing comprehensive endpoints to manage them efficiently:",
+    "li1": "<strong>Product Lines</strong>",
+    "li2": "<strong>Products</strong>",
+    "li3": "<strong>Offices</strong>",
+    "li4": "<strong>Employees</strong>",
+    "li5": "<strong>Customers</strong>",
+    "li6": "<strong>Payments</strong>",
+    "li7": "<strong>Orders</strong>",
+    "li8": "<strong>Order Details</strong>",
+    "subtitle2": "Technologies Used",
+    "li9": "<strong>Node.js:</strong> Provides the runtime environment for building scalable and high-performance server-side applications.",
+    "li10": "<strong>Express:</strong> A minimal and flexible Node.js web application framework that facilitates efficient request handling.",
+    "li11": "<strong>MySQL:</strong> A reliable and widely-used relational database management system (RDBMS) for data management.",
+    "subtitle3": "My Skills and Experience",
+    "p2": "Developing the Order Management API allowed me to enhance my skills in backend development, particularly in building and managing RESTful APIs. Working with Node.js and Express strengthened my understanding of server-side scripting, while integrating MySQL refined my database management capabilities. This project showcases my ability to design scalable and maintainable APIs, ensuring efficient data handling and seamless integration with other systems."
   }
 }

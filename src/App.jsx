@@ -6,6 +6,7 @@ const DocMe = lazy(() => import('./Pages/P_DocMe/DocMe'));
 const ChatBot = lazy(() => import('./Pages/P_ChatBot/ChatBot'));
 const RestauranteSCocina = lazy(() => import('./Pages/P_RestauranteSCocina/RestauranteSCocina'));
 const APIResidences = lazy(()=> import ('./Pages/P_APIResidences/APIResidences'))
+const APIOrders = lazy(()=> import ('./Pages/P_APIOrders/APIOrdes'))
 
 import { useTranslation } from 'react-i18next';
 
@@ -21,6 +22,7 @@ function App() {
           <Route path={"/Projects/Chatbot"} element={<ChatBot />} />
           <Route path={"/Projects/RestauranteSCocina"} element={<RestauranteSCocina />} />
           <Route path={"/Projects/APIResidences"} element={<APIResidences />} />
+          <Route path={"/Projects/APIOrders"} element={<APIOrders />} />
           <Route path="*" element={<Navigate to={"/"} />} />
         </Routes>
       </Suspense>
