@@ -24,15 +24,15 @@
     "p5": "RestauranteSCocina"
   },
   "About": {
-    "title": "About me",
+    "title": "About Me",
     "p1": [
-      "My name is <strong>Kevin Julio Pineda</strong> and I am a <strong>systems engineer</strong> focused on <strong>frontend development</strong>. During my university education, I had the opportunity to participate in various technology fairs, which allowed me to expand my knowledge and skills in the field of systems engineering."
+      "My name is <strong>Kevin Julio Pineda</strong> and I am a <strong>systems engineer specialized in frontend development</strong>. During my university education, I actively participated in various <strong>technology fairs</strong>, which allowed me to <strong>expand my knowledge and skills</strong> in the field of systems engineering."
     ],
     "p2": [
-      "Throughout my career, <strong>I have led</strong> multiple projects from initial concept to deployment. I use <strong>agile methodologies</strong> and <strong>design patterns</strong> to ensure each project is completed efficiently and meets the highest quality standards."
+      "Throughout my career, I have <strong>led multiple projects</strong> from the initial phase to deployment, using <strong>agile methodologies</strong> and <strong>design patterns</strong> to ensure that each project is completed efficiently and meets the highest quality standards."
     ],
     "p3": [
-      "I have experience in <strong>software architecture</strong> and always strive to implement best practices in my projects. My goal is to continue growing professionally and contribute to creating innovative technological solutions that enhance user experience."
+      "My goal is to continue growing professionally and contribute to the <strong>creation of innovative technological solutions</strong> that <strong>enhance the user experience</strong>. I am passionate about applying best practices in software development, ensuring the creation of <strong>intuitive and functional applications</strong>."
     ]
   },
   "Skills": {
